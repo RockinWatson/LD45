@@ -44,3 +44,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: StreetBack
+    uniqueID: 1428134883
+    locked: 0
+  - name: StreetFront
+    uniqueID: 3937474963
+    locked: 0
+  - name: Houses
+    uniqueID: 1474922097
+    locked: 0
+  - name: Shop
+    uniqueID: 687906173
+    locked: 0
+  - name: Player
+    uniqueID: 2245027499
+    locked: 0
