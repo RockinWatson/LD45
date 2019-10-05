@@ -1,6 +1,7 @@
 ﻿using Assets.Scripts.Objects;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
@@ -8,9 +9,12 @@ namespace Assets.Scripts
     {
         public PlayerData PlayerData { get; private set; }
 
+        public Text CandyText;
+
         private void OnEnable()
         {
             PlayerData = PlayerPersistence.LoadData();
+            CandyText.text = PlayerData.Candy.ToString();
         }
 
         private void OnDisable()
@@ -20,7 +24,7 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            
+            CandyText.text = PlayerData.Candy.ToString();
         }
 
         private void OnTriggerStay2D(Collider2D collision)
@@ -32,10 +36,16 @@ namespace Assets.Scripts
                 SceneManager.LoadScene("Shop");
             }
             //Knock on Door for Candy
-            if (Input.GetKeyDown(KeyCode.E) && collision.gameObject.name == "")
+            if (Input.GetKeyDown(KeyCode.E) && collision.gameObject.name == "HouseCollision")
             {
-
+                //Get Candy
+                PlayerData.Candy += 1;
             }
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            
         }
     }
 }
