@@ -47,6 +47,9 @@ TagManager:
   - name: StreetBack
     uniqueID: 1428134883
     locked: 0
+  - name: Street
+    uniqueID: 1397023669
+    locked: 0
   - name: StreetFront
     uniqueID: 3937474963
     locked: 0
