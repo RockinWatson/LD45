@@ -53,6 +53,9 @@ TagManager:
   - name: Houses
     uniqueID: 1474922097
     locked: 0
+  - name: Door
+    uniqueID: 2746862035
+    locked: 0
   - name: Shop
     uniqueID: 687906173
     locked: 0
