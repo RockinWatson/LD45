@@ -10,6 +10,8 @@ namespace Assets.Scripts
         private PlayerData _player;
         private bool _shopLoaded;
 
+        public GameObject[] CostumeList;
+
         private void Update()
         {
             if (Player.PlayerInstance.IsShopLoaded)
