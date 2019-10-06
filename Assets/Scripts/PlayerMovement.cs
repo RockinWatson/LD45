@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D Rb;
 
     public Animator animator;
+    public SpriteRenderer Renderer;
 
     private Vector2 _movement;
 
@@ -17,15 +18,25 @@ public class PlayerMovement : MonoBehaviour
         _movement.x = Input.GetAxisRaw("Horizontal");
         _movement.y = Input.GetAxisRaw("Vertical");
 
-        if (Rb.velocity.x > 0f)
+        //Flip Animation
+        if (_movement.x < 0f)
+        {
+            Renderer.flipX = true;
+        }
+        if (_movement.x > 0f)
+        {
+            Renderer.flipX = false;
+        }
+
+        //Animations
+        if (_movement.x > 0f || _movement.y > 0f || _movement.x < 0f || _movement.y < 0f)
         {
             animator.SetBool("isWalking", true);
         }
         else
         {
-            animator.SetBool("isWalking", false);
+            animator.SetBool("isWalking", false);        
         }
-        
     }
 
     void FixedUpdate()

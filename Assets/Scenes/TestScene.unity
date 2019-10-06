@@ -1097,93 +1097,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1403475049}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1453974784 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3628496780290343946, guid: b1eb00716267bbc4dbf3a627947d359e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3628496780036476768}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1453974785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453974784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7e33e9ba633dd04b911a9f5db63f129, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CandyText: {fileID: 1673924217}
---- !u!114 &1453974786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453974784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23796d265ca4f504594b5efcdd20677f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShopMenuUI: {fileID: 707650066}
-  ShopPointer: {fileID: 22284033}
-  ShopItemList:
-  - {fileID: 1057308353}
-  - {fileID: 469891808}
-  - {fileID: 1354387554}
-  - {fileID: 1799420664}
-  - {fileID: 918847044}
-  - {fileID: 1975802383}
-  - {fileID: 846619766}
-  - {fileID: 952121527}
---- !u!61 &1453974788
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453974784}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.38, y: 0.67}
-    newSize: {x: 1.24, y: 1.24}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.69, y: 0.94}
-  m_EdgeRadius: 0
---- !u!95 &1453974791
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453974784}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 629d7c0b66e299b4d852acb2f60938a3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1466163397 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4284496279117846871, guid: 2e7b5e4b440ed9a488d3e6e6204047b0,
@@ -1849,22 +1762,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1739946212347562110, guid: b1eb00716267bbc4dbf3a627947d359e,
-        type: 3}
-      propertyPath: m_Sprite
+    - target: {fileID: 1453974785, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: CandyText
       value: 
-      objectReference: {fileID: 21300002, guid: 7cab78b65794b9744a8f1d6cd0187f3c,
-        type: 3}
-    - target: {fileID: 1739946212347562110, guid: b1eb00716267bbc4dbf3a627947d359e,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: -2049939797
-      objectReference: {fileID: 0}
-    - target: {fileID: 1739946212347562110, guid: b1eb00716267bbc4dbf3a627947d359e,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 7
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1673924217}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopMenuUI
+      value: 
+      objectReference: {fileID: 707650066}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopPointer
+      value: 
+      objectReference: {fileID: 22284033}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopItemList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1057308353}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopItemList.Array.data[1]
+      value: 
+      objectReference: {fileID: 469891808}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopItemList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1354387554}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopItemList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1799420664}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopItemList.Array.data[4]
+      value: 
+      objectReference: {fileID: 918847044}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopItemList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1975802383}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopItemList.Array.data[6]
+      value: 
+      objectReference: {fileID: 846619766}
+    - target: {fileID: 1453974786, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+      propertyPath: ShopItemList.Array.data[7]
+      value: 
+      objectReference: {fileID: 952121527}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
 --- !u!4 &3628496780036476769 stripped
