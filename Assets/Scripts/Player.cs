@@ -40,6 +40,7 @@ namespace Assets.Scripts
             {
                 //Get Candy
                 PlayerData.Candy += 1;
+                collision.gameObject.SetActive(false);
             }
         }
 
