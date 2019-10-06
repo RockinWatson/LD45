@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        //movement
         Rb.MovePosition(Rb.position + _movement.normalized * MoveSpeed * Time.fixedDeltaTime);
     }
 }

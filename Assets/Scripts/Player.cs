@@ -11,6 +11,8 @@ namespace Assets.Scripts
 
         public Text CandyText;
 
+        private bool EKeyPressed;
+
         private void OnEnable()
         {
             PlayerData = PlayerPersistence.LoadData();
@@ -25,28 +27,24 @@ namespace Assets.Scripts
         private void Update()
         {
             CandyText.text = PlayerData.Candy.ToString();
+            EKeyPressed = Input.GetKeyDown(KeyCode.E);
         }
 
         private void OnTriggerStay2D(Collider2D collision)
         {
             //GOTO Shop
-            if (Input.GetKeyDown(KeyCode.E) && collision.gameObject.name == "ShopCollision")
+            if (EKeyPressed && collision.gameObject.name == "ShopCollision")
             {
                 //Go To Shop
                 SceneManager.LoadScene("Shop");
             }
             //Knock on Door for Candy
-            if (Input.GetKeyDown(KeyCode.E) && collision.gameObject.name == "HouseCollision")
+            if (EKeyPressed && collision.gameObject.name == "HouseCollision")
             {
                 //Get Candy
                 PlayerData.Candy += 1;
                 collision.gameObject.SetActive(false);
             }
-        }
-
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-            
         }
     }
 }
