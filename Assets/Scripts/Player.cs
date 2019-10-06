@@ -1,12 +1,21 @@
-﻿using Assets.Scripts.Objects;
+﻿using Assets.Scripts.Enums;
+using Assets.Scripts.Objects;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
     public class Player : MonoBehaviour
     {
+        private static Player _playerInstance;
+        public static Player PlayerInstance { get { return _playerInstance; } }
+
+        private bool _isShopLoaded = false;
+        public bool IsShopLoaded { get { return _isShopLoaded; } set { _isShopLoaded = value; } }
+
+        private CostumeEnum _costume;
+        public CostumeEnum Costume { get { return _costume; } set { _costume = value; } }
+
         public PlayerData PlayerData { get; private set; }
 
         public Text CandyText;
@@ -16,12 +25,23 @@ namespace Assets.Scripts
         private void OnEnable()
         {
             PlayerData = PlayerPersistence.LoadData();
-            CandyText.text = PlayerData.Candy.ToString();
         }
 
         private void OnDisable()
         {
             PlayerPersistence.SaveData(this);
+        }
+
+        private void Awake()
+        {
+            if (_playerInstance != null && _playerInstance != this)
+            {
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                _playerInstance = this;
+            }
         }
 
         private void Update()
@@ -36,7 +56,7 @@ namespace Assets.Scripts
             if (EKeyPressed && collision.gameObject.name == "ShopCollision")
             {
                 //Go To Shop
-                SceneManager.LoadScene("Shop");
+                _isShopLoaded = true;
             }
             //Knock on Door for Candy
             if (EKeyPressed && collision.gameObject.name == "HouseCollision")

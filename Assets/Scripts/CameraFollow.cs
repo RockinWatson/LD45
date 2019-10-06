@@ -10,10 +10,6 @@ public class CameraFollow : MonoBehaviour
     public Vector3 MinCameraPos;
     public Vector3 MaxCameraPos;
 
-    private void Start()
-    {
-    }
-
     // Update is called once per frame
     void FixedUpdate()
     {

@@ -10,8 +10,8 @@ namespace Assets.Scripts
             PlayerPrefs.SetFloat("x", player.transform.position.x);
             PlayerPrefs.SetFloat("y", player.transform.position.y);
             PlayerPrefs.SetFloat("x", player.transform.position.z);
-            PlayerPrefs.SetString("name", player.gameObject.name);
             PlayerPrefs.SetInt("candy", player.PlayerData.Candy);
+            PlayerPrefs.SetInt("costume", player.PlayerData.Costume);
         }
 
         public static PlayerData LoadData()
@@ -19,13 +19,13 @@ namespace Assets.Scripts
             float x = PlayerPrefs.GetFloat("x");
             float y = PlayerPrefs.GetFloat("y");
             float z = PlayerPrefs.GetFloat("z");
-            string name = PlayerPrefs.GetString("name");
             int candy = PlayerPrefs.GetInt("candy");
+            int costume = PlayerPrefs.GetInt("costume");
 
             PlayerData playerData = new PlayerData() {
                 Location = new Vector3(x, y, z),
-                Name = name,
-                Candy = candy
+                Candy = candy,
+                Costume = costume
             };
 
             return playerData;
