@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D Rb;
 
+    public Animator animator;
+
     private Vector2 _movement;
 
     // Update is called once per frame
@@ -14,6 +16,16 @@ public class PlayerMovement : MonoBehaviour
         //Register Input
         _movement.x = Input.GetAxisRaw("Horizontal");
         _movement.y = Input.GetAxisRaw("Vertical");
+
+        if (Rb.velocity.x > 0f)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
+        
     }
 
     void FixedUpdate()
