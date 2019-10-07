@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 1739946212347562110}
   - component: {fileID: 1453974791}
   - component: {fileID: 1453974785}
-  - component: {fileID: 1453974786}
   - component: {fileID: 1747662170001304414}
   - component: {fileID: 1453974788}
   m_Layer: 0
@@ -155,29 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CandyText: {fileID: 0}
---- !u!114 &1453974786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3628496780290343946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23796d265ca4f504594b5efcdd20677f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShopMenuUI: {fileID: 0}
-  ShopPointer: {fileID: 0}
-  ShopItemList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  _animator: {fileID: 0}
 --- !u!70 &1747662170001304414
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
