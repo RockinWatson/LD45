@@ -23,8 +23,8 @@ namespace Assets.Scripts
         [SerializeField]
         private Text TimeLeftText;
 
-        private float _gameTimer = 3f * 60f; // 3 minutes
-        //private float _gameTimer = 9f; // 3 minutes
+        //private float _gameTimer = 3f * 60f; // 3 minutes
+        private float _gameTimer = 9f; // 3 minutes
         public float GetGamerTimer() { return _gameTimer; }
 
         private bool EKeyPressed;
@@ -44,15 +44,20 @@ namespace Assets.Scripts
 
         private void Awake()
         {
-            if (_playerInstance != null && _playerInstance != this)
-            {
-                Destroy(this.gameObject);
-            }
-            else
+            //if (_playerInstance != null && _playerInstance != this)
+            //{
+                //Destroy(this.gameObject);
+            //}
+            //else
             {
                 _playerInstance = this;
                 _animator = this.GetComponent<Animator>();
             }
+        }
+
+        private void Start()
+        {
+            PlayerData.CandyScore = 0;
         }
 
         private void Update()
@@ -64,7 +69,7 @@ namespace Assets.Scripts
             }
 
             TimeLeftText.text = _gameTimer.ToString("0.0");
-            CandyText.text = PlayerData.Candy.ToString();
+            CandyText.text = PlayerData.Candy.ToString() + " (" + PlayerData.CandyScore.ToString() + ")";
             EKeyPressed = Input.GetKeyDown(KeyCode.E);
             SpaceKeyPressed = Input.GetKeyDown(KeyCode.Space);
 
@@ -121,6 +126,7 @@ namespace Assets.Scripts
         public void AddCandy(int count = 1)
         {
             PlayerData.Candy += count;
+            PlayerData.CandyScore += count;
         }
 
         public int AttemptToStealCandy(int count)
@@ -141,7 +147,7 @@ namespace Assets.Scripts
         {
             if (Input.GetKeyDown(KeyCode.Y))
             {
-                PlayerData.Candy += 10;
+                AddCandy(10);
             }
         }
     }

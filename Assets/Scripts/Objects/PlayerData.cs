@@ -6,6 +6,7 @@ namespace Assets.Scripts.Objects
     {
         public Vector3 Location { get; set; }
         public int Candy { get; set; } = 0;
+        public int CandyScore { get; set; } = 0;
         public int Costume { get; set; } = 0;
     }
 }
