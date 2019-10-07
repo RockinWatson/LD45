@@ -33,7 +33,10 @@ public class CostumeManager : MonoBehaviour
     private void Awake()
     {
         _instance = this;
+    }
 
+    private void Start()
+    {
         Player player = Player.PlayerInstance;
         _costumeAnimator = player.GetComponent<Animator>();
         _costumeRenderer = player.GetComponent<SpriteRenderer>();
