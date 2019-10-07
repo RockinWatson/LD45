@@ -23,8 +23,8 @@ namespace Assets.Scripts
         [SerializeField]
         private Text TimeLeftText;
 
-        //private float _gameTimer = 3f * 60f; // 3 minutes
-        private float _gameTimer = 9f; // 3 minutes
+        private float _gameTimer = 3f * 60f; // 3 minutes
+        //private float _gameTimer = 9f; // 3 minutes
         public float GetGamerTimer() { return _gameTimer; }
 
         private bool EKeyPressed;
