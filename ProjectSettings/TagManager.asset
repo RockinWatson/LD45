@@ -52,8 +52,14 @@ TagManager:
   - name: StreetFront
     uniqueID: 3937474963
     locked: 0
+  - name: Streetlines
+    uniqueID: 4173594027
+    locked: 0
   - name: Houses
     uniqueID: 1474922097
+    locked: 0
+  - name: DoorBack
+    uniqueID: 180146505
     locked: 0
   - name: Door
     uniqueID: 2746862035
