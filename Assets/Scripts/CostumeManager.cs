@@ -9,10 +9,21 @@ public class CostumeManager : MonoBehaviour
     [SerializeField]
     private List<RuntimeAnimatorController> _mainAnimatorControllers = null;
 
+    private int _currentCostume = 0;
+    public int GetCurrentCostume() { return _currentCostume; }
+
+    static private CostumeManager _instance = null;
+    static public CostumeManager Get() { return _instance; }
+
+    private void Awake()
+    {
+        _instance = this;
+    }
+
     public void SetCostume(int index)
     {
+        _currentCostume = index;
         Player player = Player.PlayerInstance;
-
         Animator animator = player.GetComponent<Animator>();
         animator.runtimeAnimatorController = _mainAnimatorControllers[index];
     }
