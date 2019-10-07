@@ -10,12 +10,19 @@ public class Candy : MonoBehaviour
     private float _suckTimer;
 
     private bool _isBeingSuckedUp = false;
+    private bool _pickUpSound = false;
 
     public void SuckUpIntoPlayer()
     {
         _isBeingSuckedUp = true;
         _suckTimer = _suckTime;
-        AudioController.candyPickup.Play();
+
+        if (_pickUpSound == false)
+        {
+            AudioController.candyPickup.Play();
+        }
+
+        _pickUpSound = true;
     }
 
     private void Update()
@@ -28,6 +35,7 @@ public class Candy : MonoBehaviour
                 // Add Candy to Player...
                 Player.PlayerInstance.AddCandy(1);
                 Destroy(this.gameObject);
+                _pickUpSound = false;
             }
 
             this.transform.position = Vector3.Slerp(Player.PlayerInstance.transform.position, this.transform.position, _suckTimer / _suckTime);
