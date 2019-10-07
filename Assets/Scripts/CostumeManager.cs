@@ -83,7 +83,7 @@ public class CostumeManager : MonoBehaviour
     private void Update()
     {
         //@TEMP:
-        DebugInput();
+        //DebugInput();
     }
 
     private void DebugInput()

@@ -76,7 +76,7 @@ namespace Assets.Scripts
             SpaceKeyPressed = Input.GetKeyDown(KeyCode.Space);
 
             //@TEMP:
-            DebugInput();
+            //DebugInput();
         }
 
         private void OnTriggerStay2D(Collider2D collision)
