@@ -2124,28 +2124,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 29.28301, y: 6.402198}
   m_EdgeRadius: 0
---- !u!1 &1453974784 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3628496780290343946, guid: b1eb00716267bbc4dbf3a627947d359e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3628496780036476768}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &1453974788
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453974784}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.03188345, y: -0.0028985739}
-  m_Size: {x: 0.3162331, y: 0.59463906}
-  m_Direction: 0
 --- !u!1 &1466163397 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4284496279117846871, guid: 2e7b5e4b440ed9a488d3e6e6204047b0,
@@ -4036,8 +4014,7 @@ PrefabInstance:
       propertyPath: ShopItemList.Array.data[7]
       value: 
       objectReference: {fileID: 952121527}
-    m_RemovedComponents:
-    - {fileID: 1453974788, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1eb00716267bbc4dbf3a627947d359e, type: 3}
 --- !u!4 &3628496780036476769 stripped
 Transform:
