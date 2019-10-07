@@ -6,16 +6,22 @@ tpsheetFileNames:
 - Assets/Taylor Art/Bonedude2SHOP.tpsheet
 - Assets/Taylor Art/Houses.tpsheet
 - Assets/Taylor Art/StoreStuff1.tpsheet
+- Assets/Taylor Art/Story1.tpsheet
 - Assets/Taylor Art/Test-Background1.tpsheet
+- Assets/Taylor Art/Title1.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/Taylor Art/Bonedude1.png
 - Assets/Taylor Art/Bonedude2SHOP.png
 - Assets/Taylor Art/Houses.png
 - Assets/Taylor Art/StoreStuff1.png
+- Assets/Taylor Art/Story1.png
 - Assets/Taylor Art/Test-Background1.png
+- Assets/Taylor Art/Title1.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
 - 
 - 
 - 
