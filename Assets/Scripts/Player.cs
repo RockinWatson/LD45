@@ -57,6 +57,8 @@ namespace Assets.Scripts
 
         private void Start()
         {
+            PlayerPersistence.LoadShopData();
+
             PlayerData.CandyScore = 0;
         }
 

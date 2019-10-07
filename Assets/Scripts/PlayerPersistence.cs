@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Objects;
+﻿using System.Collections.Generic;
+using Assets.Scripts.Objects;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -13,6 +14,20 @@ namespace Assets.Scripts
             PlayerPrefs.SetInt("candy", player.PlayerData.Candy);
             PlayerPrefs.SetInt("candyScore", player.PlayerData.CandyScore);
             PlayerPrefs.SetInt("costume", player.PlayerData.Costume);
+
+            List<int> earnedShopItems = Shop.Get().GetEarnedShopItems();
+            //foreach(int i in earnedShopItems)
+            //{
+                //PlayerPrefs.SetInt("shop" + i, 1);
+            //}
+            //for (int i = 0; i < earnedShopItems.Count; ++i)
+            //{
+            //PlayerPrefs.SetInt("shop" + i, earnedShopItems[i] ? 1 : 0);
+            //}
+            for (int i = 0; i < Shop.TOTAL_SHOP_ITEMS; ++i)
+            {
+                PlayerPrefs.SetInt("shop" + i, earnedShopItems.Contains(i) ? 1 : 0);
+            }
         }
 
         public static PlayerData LoadData()
@@ -32,6 +47,19 @@ namespace Assets.Scripts
             };
 
             return playerData;
+        }
+
+        public static void LoadShopData()
+        {
+            List<int> earnedShopItems = new List<int>();
+            for (int i = 0; i < Shop.TOTAL_SHOP_ITEMS; ++i)
+            {
+                if (PlayerPrefs.GetInt("shop" + i) > 0)
+                {
+                    earnedShopItems.Add(i);
+                }
+            }
+            Shop.Get().SetEarnedShopItems(earnedShopItems);
         }
     }
 }

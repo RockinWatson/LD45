@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace Assets.Scripts.Objects
 {
@@ -8,5 +9,6 @@ namespace Assets.Scripts.Objects
         public int Candy { get; set; } = 0;
         public int CandyScore { get; set; } = 0;
         public int Costume { get; set; } = 0;
+        public List<bool> EarnedShopItems { get; set; } = null;
     }
 }

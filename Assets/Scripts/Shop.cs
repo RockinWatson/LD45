@@ -21,9 +21,12 @@ namespace Assets.Scripts
 
         public Sprite[] SpriteList;
         public Animator PlayerAnimator;
-        public SpriteRenderer PlayerSpriteRend;     
+        public SpriteRenderer PlayerSpriteRend;
 
+        public const int TOTAL_SHOP_ITEMS = 8;
         private List<int> _usedShopItems = new List<int>();
+        public List<int> GetEarnedShopItems() { return _usedShopItems; }
+        public void SetEarnedShopItems(List<int> items) { _usedShopItems = items; }
 
         private int _ghostCostumeCost = 100;
         private int _princessCostumeCost = 200;
@@ -41,6 +44,14 @@ namespace Assets.Scripts
 
         [SerializeField]
         private List<Text> _costTexts = null;
+
+        static private Shop _instance = null;
+        static public Shop Get() { return _instance; }
+
+        private void Awake()
+        {
+            _instance = this;
+        }
 
         private void Start()
         {
@@ -141,6 +152,7 @@ namespace Assets.Scripts
                         {
                             SetCostume(_shopIndex + 1);
                         }
+                        AudioController.buy.Play();
                     }
                 }
                 else
@@ -149,6 +161,10 @@ namespace Assets.Scripts
                     {
                         //Add Upgrade game object to Player
                         AddUpgradeToPlayer(_shopIndex);
+                    } else
+                    {
+                        SetUpgrade(_shopIndex - 3);
+                        AudioController.buy.Play();
                     }
                 }
             }
