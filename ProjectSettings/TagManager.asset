@@ -76,3 +76,6 @@ TagManager:
   - name: Fence
     uniqueID: 1769532177
     locked: 0
+  - name: Game Filter 1
+    uniqueID: 797986193
+    locked: 0
