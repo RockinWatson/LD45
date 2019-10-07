@@ -81,15 +81,28 @@ namespace Assets.Scripts
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    if (!_usedShopItems.Contains(_shopIndex))
+                    //if (!_usedShopItems.Contains(_shopIndex))
                     {
                         //Add Item To Player
                         if (_shopIndex >= 0 && _shopIndex <= 2)
                         {
-                            //Add Costume sprite to player
-                            SetSpriteCostume(_shopIndex);
-                            _usedShopItems.Add(_shopIndex);
-                            AudioController.buy.Play();
+                            if (!_usedShopItems.Contains(_shopIndex))
+                            {
+                                //Add Costume sprite to player
+                                //CostumeManager.Get().SetCostume(_shopIndex);
+                                //SetSpriteCostume(_shopIndex);
+                                TryToBuyAndSetCostume(_shopIndex);
+                            } else
+                            {
+                                int currentCostume = CostumeManager.Get().GetCurrentCostume();
+                                if(currentCostume == _shopIndex+1)
+                                {
+                                    SetCostume(0);
+                                } else
+                                {
+                                    SetCostume(_shopIndex + 1);
+                                }
+                            }
                         }
                         else
                         {
@@ -111,31 +124,44 @@ namespace Assets.Scripts
             }
         }
 
-        public void SetSpriteCostume(int index) {
+        private void TryToBuyAndSetCostume(int index)
+        {
+            Player player = Player.PlayerInstance;
+            int candyCount = player.PlayerData.Candy;
+            int candyCost = 0;
             switch (index)
             {
                 case 0:
-                    if (Player.PlayerInstance.PlayerData.Candy >= 0)
+                    if(candyCount > _ghostCostumeCost)
                     {
-                        PlayerSpriteRend.sprite = SpriteList[0];
-                        PlayerAnimator.runtimeAnimatorController = _ghostAnimatorController;
-                    }                    
+                        candyCost = _ghostCostumeCost;
+                    }
                     break;
                 case 1:
-                    if (Player.PlayerInstance.PlayerData.Candy >= _princessCostumeCost)
+                    if (candyCount > _princessCostumeCost)
                     {
-                        PlayerSpriteRend.sprite = SpriteList[1];
-                    }                   
+                        candyCost = _princessCostumeCost;
+                    }
                     break;
                 case 2:
-                    if (Player.PlayerInstance.PlayerData.Candy >= _dinosaurCostumeCost)
+                    if (candyCount > _dinosaurCostumeCost)
                     {
-                        PlayerSpriteRend.sprite = SpriteList[2];
-                    }                    
-                    break;
-                default:
+                        candyCost = _dinosaurCostumeCost;
+                    }
                     break;
             }
+            if(candyCost > 0)
+            {
+                SetCostume(index+1);
+                player.PlayerData.Candy -= candyCost;
+                _usedShopItems.Add(index);
+                AudioController.buy.Play();
+            }
+        }
+
+        private void SetCostume(int index)
+        {
+            CostumeManager.Get().SetCostume(index);
         }
 
         public void AddUpgradeToPlayer(int index) {
