@@ -253,11 +253,53 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">../../../Flavor1/NewShop.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>70,93,139,185</rect>
+                <key>scale9Paddings</key>
+                <rect>70,93,139,185</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../../Flavor1/bully/BullyAni_000.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_001.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_002.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_003.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_004.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_005.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_006.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_007.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_008.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_009.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_010.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_011.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_012.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_013.png</key>
+            <key type="filename">../../../Flavor1/bully/BullyAni_014.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>13,24,26,47</rect>
+                <key>scale9Paddings</key>
+                <rect>13,24,26,47</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
         </map>
         <key>fileList</key>
         <array>
             <filename>../../../Animations/Idle</filename>
             <filename>../../../Animations/Walk</filename>
+            <filename>../../../Flavor1/NewShop.png</filename>
+            <filename>../../../Flavor1/bully</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

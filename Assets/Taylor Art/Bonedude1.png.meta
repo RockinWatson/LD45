@@ -33,6 +33,22 @@ TextureImporter:
     21300056: Walk_012
     21300058: Walk_013
     21300060: Walk_014
+    21300062: BullyAni_000
+    21300064: BullyAni_001
+    21300066: BullyAni_002
+    21300068: BullyAni_003
+    21300070: BullyAni_004
+    21300072: BullyAni_005
+    21300074: BullyAni_006
+    21300076: BullyAni_007
+    21300078: BullyAni_008
+    21300080: BullyAni_009
+    21300082: BullyAni_010
+    21300084: BullyAni_011
+    21300086: BullyAni_012
+    21300088: BullyAni_013
+    21300090: BullyAni_014
+    21300092: NewShop
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -126,11 +142,311 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: BullyAni_000
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 744
+        width: 50
+        height: 88
+      alignment: 9
+      pivot: {x: 0.49, y: 0.53409094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6176f58144d0c419e825229baee832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_001
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 837
+        width: 51
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8df2b8eacc95245a3188fe0bb1c978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_002
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 835
+        width: 51
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4776948ca0f0d4488a3e27d85243a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_003
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 834
+        width: 51
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6214f4203ae6a4799dba528dd71c5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_004
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 833
+        width: 50
+        height: 94
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df44496c7e4005e47aa1e52e2b27d0ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_005
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 929
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb6af1cd3eced84f933778d9e39145b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_006
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 929
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1260fda83c0168e47a61698293432bbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_007
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 929
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a5d865c11d4e54e9f9d1f7c45352bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_008
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 929
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fa33a52ef1b4b478145577e82def93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_009
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 741
+        width: 50
+        height: 94
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92324aadaa8abb4689534c1aba86f8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_010
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 737
+        width: 50
+        height: 94
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9789ef33e8a2a44afdcbc660ec68b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_011
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 648
+        width: 49
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85323767ad97980449154fded52215f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_012
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 740
+        width: 50
+        height: 93
+      alignment: 9
+      pivot: {x: 0.49, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1fee5c96570f240944ef6637059a42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_013
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 647
+        width: 50
+        height: 92
+      alignment: 9
+      pivot: {x: 0.49, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fec1efda788e0e4f9c1915d34a7a6bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BullyAni_014
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 645
+        width: 50
+        height: 90
+      alignment: 9
+      pivot: {x: 0.49, y: 0.5222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef82bacbdce92b841a325149e1ca15d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: idle_000
       rect:
         serializedVersion: 2
-        x: 45
-        y: 378
+        x: 473
+        y: 611
         width: 38
         height: 67
       alignment: 0
@@ -140,7 +456,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1022c7ecdbf69e1498b368699a51e54a
+      spriteID: b342c1215b0266749827c7f164306104
       vertices: []
       indices: 
       edges: []
@@ -149,8 +465,8 @@ TextureImporter:
       name: idle_001
       rect:
         serializedVersion: 2
-        x: 1
-        y: 377
+        x: 399
+        y: 576
         width: 38
         height: 67
       alignment: 0
@@ -160,7 +476,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12be18a96175d324a90bbb2dbe596235
+      spriteID: f4ce55878b2d1ef4098a92e042e44278
       vertices: []
       indices: 
       edges: []
@@ -169,8 +485,8 @@ TextureImporter:
       name: idle_002
       rect:
         serializedVersion: 2
-        x: 129
-        y: 444
+        x: 472
+        y: 542
         width: 38
         height: 67
       alignment: 0
@@ -180,7 +496,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cc63d0e4a5b46942900ef6c29a52cd9
+      spriteID: 7ee76302d932fcc40982daeae0f3cb72
       vertices: []
       indices: 
       edges: []
@@ -189,8 +505,8 @@ TextureImporter:
       name: idle_003
       rect:
         serializedVersion: 2
-        x: 169
-        y: 444
+        x: 1
+        y: 598
         width: 38
         height: 67
       alignment: 0
@@ -200,7 +516,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c15e41cc4ef00d14aafa6195e810de83
+      spriteID: 79c7e8d893002c640ab9ddd2fdcceb1f
       vertices: []
       indices: 
       edges: []
@@ -209,8 +525,8 @@ TextureImporter:
       name: idle_004
       rect:
         serializedVersion: 2
-        x: 209
-        y: 444
+        x: 41
+        y: 598
         width: 38
         height: 67
       alignment: 0
@@ -220,7 +536,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9d2c37a32a1ec0489301d918066bb32
+      spriteID: 3ba6ba0c1873cf449a188d3b5a7509b4
       vertices: []
       indices: 
       edges: []
@@ -229,8 +545,8 @@ TextureImporter:
       name: idle_005
       rect:
         serializedVersion: 2
-        x: 85
-        y: 375
+        x: 81
+        y: 598
         width: 38
         height: 67
       alignment: 0
@@ -240,7 +556,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfb1dd364e6203f41858a44d83e8d5f4
+      spriteID: 36d2daf1711cc824582ca69598dda7dd
       vertices: []
       indices: 
       edges: []
@@ -249,8 +565,8 @@ TextureImporter:
       name: idle_006
       rect:
         serializedVersion: 2
-        x: 41
-        y: 309
+        x: 121
+        y: 598
         width: 38
         height: 67
       alignment: 0
@@ -260,7 +576,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8957a782a4e25224d8fda5b2597fb448
+      spriteID: 64e19826af1c41747801b03f3797fae1
       vertices: []
       indices: 
       edges: []
@@ -269,8 +585,8 @@ TextureImporter:
       name: idle_007
       rect:
         serializedVersion: 2
-        x: 1
-        y: 308
+        x: 161
+        y: 598
         width: 38
         height: 67
       alignment: 0
@@ -280,7 +596,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69faf1030a659294ba6d03365488deaf
+      spriteID: 0e32a5efbbe33c14abfde39a1a0b2d52
       vertices: []
       indices: 
       edges: []
@@ -289,8 +605,8 @@ TextureImporter:
       name: idle_008
       rect:
         serializedVersion: 2
-        x: 125
-        y: 375
+        x: 201
+        y: 598
         width: 38
         height: 67
       alignment: 0
@@ -300,7 +616,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0912e0203df6cec4189e30eaeafb4f30
+      spriteID: 23edf9a158b6b9446ad4af1f9586611c
       vertices: []
       indices: 
       edges: []
@@ -309,8 +625,8 @@ TextureImporter:
       name: idle_009
       rect:
         serializedVersion: 2
-        x: 165
-        y: 375
+        x: 241
+        y: 579
         width: 38
         height: 67
       alignment: 0
@@ -320,7 +636,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ed772b6b0f0a1643ba8ad25e9c16d8b
+      spriteID: dd9b5ebf9708ffc44b97b64f319f86af
       vertices: []
       indices: 
       edges: []
@@ -329,8 +645,8 @@ TextureImporter:
       name: idle_010
       rect:
         serializedVersion: 2
-        x: 205
-        y: 375
+        x: 313
+        y: 538
         width: 38
         height: 67
       alignment: 0
@@ -340,7 +656,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9605ae2c514ed084b87771dfe013ecfa
+      spriteID: ac96e12109617c44d9143289d169e34c
       vertices: []
       indices: 
       edges: []
@@ -349,8 +665,8 @@ TextureImporter:
       name: idle_011
       rect:
         serializedVersion: 2
-        x: 81
-        y: 306
+        x: 353
+        y: 509
         width: 38
         height: 67
       alignment: 0
@@ -360,7 +676,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc73e47fea2ad614db72c86941dab348
+      spriteID: 55d0f9bb49597cd44b8f2f62776ea4b0
       vertices: []
       indices: 
       edges: []
@@ -369,8 +685,8 @@ TextureImporter:
       name: idle_012
       rect:
         serializedVersion: 2
-        x: 41
-        y: 240
+        x: 393
+        y: 507
         width: 38
         height: 67
       alignment: 0
@@ -380,7 +696,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f42c4218ef12723458a7813b76571c38
+      spriteID: 84c5acb8ffd68ad4794f4af81e61c7d2
       vertices: []
       indices: 
       edges: []
@@ -389,8 +705,8 @@ TextureImporter:
       name: idle_013
       rect:
         serializedVersion: 2
-        x: 1
-        y: 239
+        x: 471
+        y: 473
         width: 38
         height: 67
       alignment: 0
@@ -400,7 +716,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be72b1e90358cbc4d8210f227bac43cc
+      spriteID: b54f2af53dae76d4b97eb899ed78412d
       vertices: []
       indices: 
       edges: []
@@ -409,8 +725,8 @@ TextureImporter:
       name: idle_014
       rect:
         serializedVersion: 2
-        x: 121
-        y: 306
+        x: 469
+        y: 404
         width: 38
         height: 67
       alignment: 0
@@ -420,7 +736,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f13b9ca2c57e60a4d9396c30e04d79ef
+      spriteID: 651dca6121633b446919e550f196d143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewShop
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 667
+        width: 261
+        height: 356
+      alignment: 9
+      pivot: {x: 0.47509578, y: 0.502809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1865a222e1e194d980c2bcbafc0e70
       vertices: []
       indices: 
       edges: []
@@ -429,8 +765,8 @@ TextureImporter:
       name: Walk_000
       rect:
         serializedVersion: 2
-        x: 201
-        y: 306
+        x: 474
+        y: 749
         width: 37
         height: 67
       alignment: 9
@@ -440,7 +776,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6744977a1a20398489ea05e7525dea1f
+      spriteID: 61e92a6f04fdfbf4ab206ce21629d900
       vertices: []
       indices: 
       edges: []
@@ -449,8 +785,8 @@ TextureImporter:
       name: Walk_001
       rect:
         serializedVersion: 2
-        x: 41
-        y: 171
+        x: 476
+        y: 956
         width: 35
         height: 67
       alignment: 9
@@ -460,7 +796,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff01a7d45df90b34192bb710f778c311
+      spriteID: 2100050c0a1acb142af43d355c674645
       vertices: []
       indices: 
       edges: []
@@ -469,8 +805,8 @@ TextureImporter:
       name: Walk_002
       rect:
         serializedVersion: 2
-        x: 161
-        y: 239
+        x: 475
+        y: 818
         width: 36
         height: 67
       alignment: 9
@@ -480,7 +816,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78f99422a01e58045b1c85f54f947a1f
+      spriteID: 5f3454b68b4541149af1f063d8ae3a06
       vertices: []
       indices: 
       edges: []
@@ -489,8 +825,8 @@ TextureImporter:
       name: Walk_003
       rect:
         serializedVersion: 2
-        x: 1
-        y: 170
+        x: 476
+        y: 887
         width: 34
         height: 67
       alignment: 0
@@ -500,7 +836,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfa89e5b28a9f3a4c935423205543bb8
+      spriteID: 4463f390e3d592a44b0013b9f3e52d55
       vertices: []
       indices: 
       edges: []
@@ -509,8 +845,8 @@ TextureImporter:
       name: Walk_004
       rect:
         serializedVersion: 2
-        x: 81
-        y: 238
+        x: 433
+        y: 508
         width: 36
         height: 66
       alignment: 9
@@ -520,7 +856,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc56ddac661070a45b8d4a131110d3b2
+      spriteID: 10d708f053e15a3418b587704f457b76
       vertices: []
       indices: 
       edges: []
@@ -529,8 +865,8 @@ TextureImporter:
       name: Walk_005
       rect:
         serializedVersion: 2
-        x: 190
-        y: 168
+        x: 439
+        y: 576
         width: 31
         height: 67
       alignment: 9
@@ -540,7 +876,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b7ca35af9491dd47895771d8af28201
+      spriteID: b39fd3ebfc290094e93bb20ec1024f82
       vertices: []
       indices: 
       edges: []
@@ -549,8 +885,8 @@ TextureImporter:
       name: Walk_006
       rect:
         serializedVersion: 2
-        x: 155
-        y: 170
+        x: 41
+        y: 529
         width: 33
         height: 67
       alignment: 9
@@ -560,7 +896,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dcba9aa10d572f408225c14440eeb20
+      spriteID: dae2e5a4039f09c4cbd56a1a508bf767
       vertices: []
       indices: 
       edges: []
@@ -569,8 +905,8 @@ TextureImporter:
       name: Walk_007
       rect:
         serializedVersion: 2
-        x: 78
-        y: 169
+        x: 1
+        y: 462
         width: 29
         height: 67
       alignment: 9
@@ -580,7 +916,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e1ec881406129740880706935aff4c3
+      spriteID: b0854949178d4a34a8b2e195a332240c
       vertices: []
       indices: 
       edges: []
@@ -589,8 +925,8 @@ TextureImporter:
       name: Walk_008
       rect:
         serializedVersion: 2
-        x: 223
-        y: 168
+        x: 281
+        y: 579
         width: 30
         height: 67
       alignment: 9
@@ -600,7 +936,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 398e3e8ec3e09404691b2e8cc57feeba
+      spriteID: 5377b3f6882195b439eab1552943034e
       vertices: []
       indices: 
       edges: []
@@ -609,8 +945,8 @@ TextureImporter:
       name: Walk_009
       rect:
         serializedVersion: 2
-        x: 119
-        y: 238
+        x: 433
+        y: 440
         width: 34
         height: 66
       alignment: 9
@@ -620,7 +956,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49b542a225a98a245b544b43b11bf827
+      spriteID: b1ff7d9a9e4b1bc4e8a0696057523a15
       vertices: []
       indices: 
       edges: []
@@ -629,8 +965,8 @@ TextureImporter:
       name: Walk_010
       rect:
         serializedVersion: 2
-        x: 161
-        y: 308
+        x: 1
+        y: 531
         width: 38
         height: 65
       alignment: 9
@@ -640,7 +976,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99982f8aa03de8646a73310871d11ed0
+      spriteID: dccccef4002039548af29dd5f2608f41
       vertices: []
       indices: 
       edges: []
@@ -649,8 +985,8 @@ TextureImporter:
       name: Walk_011
       rect:
         serializedVersion: 2
-        x: 1
-        y: 446
+        x: 315
+        y: 673
         width: 42
         height: 65
       alignment: 9
@@ -660,7 +996,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a78ba6873e0c66f4fbd14944cfceed66
+      spriteID: 00eb1a66c6a2d5c469544902c760ca30
       vertices: []
       indices: 
       edges: []
@@ -669,8 +1005,8 @@ TextureImporter:
       name: Walk_012
       rect:
         serializedVersion: 2
-        x: 45
-        y: 447
+        x: 315
+        y: 607
         width: 41
         height: 64
       alignment: 9
@@ -680,7 +1016,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 037437b24aa14d543b94125e5a35efa0
+      spriteID: 462f51297a2b8ff429a9b40f429cdd4c
       vertices: []
       indices: 
       edges: []
@@ -689,8 +1025,8 @@ TextureImporter:
       name: Walk_013
       rect:
         serializedVersion: 2
-        x: 88
-        y: 444
+        x: 358
+        y: 578
         width: 39
         height: 67
       alignment: 9
@@ -700,7 +1036,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: badf6e090caa6c94aa9aaa2ee2954f9b
+      spriteID: e1d8c6cdd306b5f4187f24999a6681ec
       vertices: []
       indices: 
       edges: []
@@ -709,8 +1045,8 @@ TextureImporter:
       name: Walk_014
       rect:
         serializedVersion: 2
-        x: 199
-        y: 237
+        x: 474
+        y: 680
         width: 36
         height: 67
       alignment: 9
@@ -720,7 +1056,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf1cef92b5c07ca4999b812f135c7d70
+      spriteID: 4d662ae6e37f7374e9ca123931435da4
       vertices: []
       indices: 
       edges: []
