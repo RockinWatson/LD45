@@ -18,7 +18,7 @@ public class CandyManager : MonoBehaviour
     public Candy GetCandy(Vector3 pos)
     {
         //@TODO: Instantiate candy, set position, set color?
-        GameObject go = Instantiate(GetRandomCandyPrefab(), pos, Quaternion.AngleAxis(Random.Range(0f, 360f), Vector3.up));
+        GameObject go = Instantiate(GetRandomCandyPrefab(), pos, Quaternion.AngleAxis(Random.Range(0f, 360f), Vector3.forward), this.transform);
         return go.GetComponent<Candy>();
     }
 
