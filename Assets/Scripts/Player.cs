@@ -109,7 +109,8 @@ namespace Assets.Scripts
                 {
                     Bully bully = collision.GetComponent<Bully>();
                     //@TODO: Modify damage by costume strength?
-                    if(bully.TryToDamage(1))
+                    float damageAdjusted = CostumeManager.Get().GetDamageMultiplier(1f);
+                    if(bully.TryToDamage((int)damageAdjusted))
                     {
                         _animator.SetTrigger("Attack");
                     }

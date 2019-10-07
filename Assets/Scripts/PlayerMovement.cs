@@ -43,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Rb.MovePosition(Rb.position + _movement.normalized * MoveSpeed * Time.fixedDeltaTime);
+        float adjustedSpeed = CostumeManager.Get().GetSpeedMultiplier(MoveSpeed);
+        Rb.MovePosition(Rb.position + _movement.normalized * adjustedSpeed * Time.fixedDeltaTime);
     }
 }

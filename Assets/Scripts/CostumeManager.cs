@@ -22,6 +22,14 @@ public class CostumeManager : MonoBehaviour
     static private CostumeManager _instance = null;
     static public CostumeManager Get() { return _instance; }
 
+    private enum UpgradeIndex {
+        BUCKET = 0,
+        SKATES = 1,
+        MASK = 2,
+        GLOVES = 3,
+        HATE = 4,
+    };
+
     private void Awake()
     {
         _instance = this;
@@ -94,5 +102,34 @@ public class CostumeManager : MonoBehaviour
                 SetUpgrade(i);
             }
         }
+    }
+
+    private bool IsCostumeActive(int index)
+    {
+        return (_currentCostume == index);
+    }
+
+    private bool IsUpgradeActive(UpgradeIndex index)
+    {
+        return _upgradeRenderers[(int)index].gameObject.activeInHierarchy;
+    }
+
+    public float GetSpeedMultiplier(float speed)
+    {
+        // If Skates are activated...
+        if(IsUpgradeActive(UpgradeIndex.SKATES))
+        {
+            speed *= 1.75f;
+        }
+        return speed;
+    }
+    
+    public float GetDamageMultiplier(float damage)
+    {
+        if (IsUpgradeActive(UpgradeIndex.GLOVES))
+        {
+            damage *= 3.0f;
+        }
+        return damage;
     }
 }
