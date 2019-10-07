@@ -253,6 +253,33 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_000.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_001.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_002.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_003.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_004.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_005.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_006.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_007.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_008.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_009.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_010.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_011.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_012.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_013.png</key>
+            <key type="filename">../../../Flavor1/Door/DoorFinal_014.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>53,45,107,89</rect>
+                <key>scale9Paddings</key>
+                <rect>53,45,107,89</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">../../../Flavor1/NewShop.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -293,6 +320,141 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">../../../Flavor1/grass/fence_000.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_001.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_002.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_003.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_004.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_005.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_006.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_007.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_008.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_009.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_010.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_011.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_012.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_013.png</key>
+            <key type="filename">../../../Flavor1/grass/fence_014.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>37,21,73,42</rect>
+                <key>scale9Paddings</key>
+                <rect>37,21,73,42</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../../Flavor1/grass/grassANI1_000.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_001.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_002.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_003.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_004.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_005.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_006.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_007.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_008.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_009.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_010.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_011.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_012.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_013.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI1_014.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>16,16,32,33</rect>
+                <key>scale9Paddings</key>
+                <rect>16,16,32,33</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../../Flavor1/grass/grassANI2_000.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_001.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_002.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_003.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_004.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_005.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_006.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_007.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_008.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_009.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_010.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_011.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_012.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_013.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI2_014.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>19,20,39,39</rect>
+                <key>scale9Paddings</key>
+                <rect>19,20,39,39</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../../Flavor1/grass/grassANI3_000.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_001.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_002.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_003.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_004.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_005.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_006.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_007.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_008.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_009.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_010.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_011.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_012.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_013.png</key>
+            <key type="filename">../../../Flavor1/grass/grassANI3_014.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>15,15,29,30</rect>
+                <key>scale9Paddings</key>
+                <rect>15,15,29,30</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../../Flavor1/grass/grassTREE_000.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_001.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_002.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_003.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_004.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_005.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_006.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_007.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_008.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_009.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_010.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_011.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_012.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_013.png</key>
+            <key type="filename">../../../Flavor1/grass/grassTREE_014.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>80,129,160,258</rect>
+                <key>scale9Paddings</key>
+                <rect>80,129,160,258</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
         </map>
         <key>fileList</key>
         <array>
@@ -300,6 +462,8 @@
             <filename>../../../Animations/Walk</filename>
             <filename>../../../Flavor1/NewShop.png</filename>
             <filename>../../../Flavor1/bully</filename>
+            <filename>../../../Flavor1/grass</filename>
+            <filename>../../../Flavor1/Door</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

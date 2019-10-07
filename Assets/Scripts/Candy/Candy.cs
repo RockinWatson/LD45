@@ -15,6 +15,7 @@ public class Candy : MonoBehaviour
     {
         _isBeingSuckedUp = true;
         _suckTimer = _suckTime;
+        AudioController.candyPickup.Play();
     }
 
     private void Update()
