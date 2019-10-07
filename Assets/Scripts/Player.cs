@@ -23,6 +23,8 @@ namespace Assets.Scripts
         private bool EKeyPressed;
         private bool SpaceKeyPressed;
 
+        public Animator _animator;
+
         private void OnEnable()
         {
             PlayerData = PlayerPersistence.LoadData();
@@ -42,6 +44,7 @@ namespace Assets.Scripts
             else
             {
                 _playerInstance = this;
+                _animator = this.GetComponent<Animator>();
             }
         }
 
@@ -92,7 +95,10 @@ namespace Assets.Scripts
                 {
                     Bully bully = collision.GetComponent<Bully>();
                     //@TODO: Modify damage by costume strength?
-                    bully.Damage(1);
+                    if(bully.TryToDamage(1))
+                    {
+                        _animator.SetTrigger("Attack");
+                    }
                 }
             }
         }

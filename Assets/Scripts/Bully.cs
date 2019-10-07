@@ -84,13 +84,21 @@ namespace Assets.Scripts
             CandyManager.Get().SpillCandy(spawnPos, 6f, candyStolen);
         }
 
+        public bool TryToDamage(int amount)
+        {
+            if(!_isStunned)
+            {
+                Damage(amount);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public void Damage(int amount)
         {
-            if(_isStunned)
-            {
-                return;
-            }
-
             Stun();
 
             int candyAmount = _candyCount / _hitPoints;
