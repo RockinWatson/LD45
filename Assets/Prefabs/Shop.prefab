@@ -134,6 +134,15 @@ MonoBehaviour:
   PlayerAnimator: {fileID: 0}
   PlayerSpriteRend: {fileID: 0}
   _candyText: {fileID: 0}
+  _costTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1001 &1562701986681122294
 PrefabInstance:
   m_ObjectHideFlags: 0
