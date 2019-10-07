@@ -26,6 +26,7 @@ public class AudioController : MonoBehaviour
     public static AudioSource doorbell;
     public static AudioSource candyPickup;
     public static AudioSource buy;
+    public static AudioSource enemyDamage;
 
     private int windPicker;
     private bool windPlay;
@@ -90,6 +91,7 @@ public class AudioController : MonoBehaviour
         doorbell = audio[17];
         candyPickup = audio[18];
         buy = audio[19];
+        enemyDamage = audio[20];
 
         levelMusic.volume = 1f;
         shopMusic.volume = .45f;
@@ -105,6 +107,7 @@ public class AudioController : MonoBehaviour
         whisper3.volume = .6f;
         doorbell.volume = .5f;
         buy.volume = .5f;
+        enemyDamage.volume = .15f;
         levelMusic.Play();
         levelMusic.loop = true;
         shopMusic.loop = true;

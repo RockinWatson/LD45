@@ -104,6 +104,7 @@ namespace Assets.Scripts
             int candyAmount = _candyCount / _hitPoints;
             SpillCandy(candyAmount);
 
+            AudioController.enemyDamage.Play();
             _hitPoints -= amount;
             if(_hitPoints <= 0)
             {
