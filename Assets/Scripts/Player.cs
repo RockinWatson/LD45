@@ -68,7 +68,10 @@ namespace Assets.Scripts
                     //collision.gameObject.SetActive(false);
 
                     House house = collision.GetComponentInParent<House>();
-                    house.TryToGetCandy();
+                    if (house != null)
+                    {
+                        house.TryToGetCandy();
+                    }
                 }
                 //Knock on Door for Candy
                 if (collision.gameObject.tag == "Candy")
