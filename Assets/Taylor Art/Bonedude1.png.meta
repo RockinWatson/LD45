@@ -49,6 +49,96 @@ TextureImporter:
     21300088: BullyAni_013
     21300090: BullyAni_014
     21300092: NewShop
+    21300094: DoorFinal_000
+    21300096: DoorFinal_001
+    21300098: DoorFinal_002
+    21300100: DoorFinal_003
+    21300102: DoorFinal_004
+    21300104: DoorFinal_005
+    21300106: DoorFinal_006
+    21300108: DoorFinal_007
+    21300110: DoorFinal_008
+    21300112: DoorFinal_009
+    21300114: DoorFinal_010
+    21300116: DoorFinal_011
+    21300118: DoorFinal_012
+    21300120: DoorFinal_013
+    21300122: DoorFinal_014
+    21300124: fence_000
+    21300126: fence_001
+    21300128: fence_002
+    21300130: fence_003
+    21300132: fence_004
+    21300134: fence_005
+    21300136: fence_006
+    21300138: fence_007
+    21300140: fence_008
+    21300142: fence_009
+    21300144: fence_010
+    21300146: fence_011
+    21300148: fence_012
+    21300150: fence_013
+    21300152: fence_014
+    21300154: grassANI1_000
+    21300156: grassANI1_001
+    21300158: grassANI1_002
+    21300160: grassANI1_003
+    21300162: grassANI1_004
+    21300164: grassANI1_005
+    21300166: grassANI1_006
+    21300168: grassANI1_007
+    21300170: grassANI1_008
+    21300172: grassANI1_009
+    21300174: grassANI1_010
+    21300176: grassANI1_011
+    21300178: grassANI1_012
+    21300180: grassANI1_013
+    21300182: grassANI1_014
+    21300184: grassANI2_000
+    21300186: grassANI2_001
+    21300188: grassANI2_002
+    21300190: grassANI2_003
+    21300192: grassANI2_004
+    21300194: grassANI2_005
+    21300196: grassANI2_006
+    21300198: grassANI2_007
+    21300200: grassANI2_008
+    21300202: grassANI2_009
+    21300204: grassANI2_010
+    21300206: grassANI2_011
+    21300208: grassANI2_012
+    21300210: grassANI2_013
+    21300212: grassANI2_014
+    21300214: grassANI3_000
+    21300216: grassANI3_001
+    21300218: grassANI3_002
+    21300220: grassANI3_003
+    21300222: grassANI3_004
+    21300224: grassANI3_005
+    21300226: grassANI3_006
+    21300228: grassANI3_007
+    21300230: grassANI3_008
+    21300232: grassANI3_009
+    21300234: grassANI3_010
+    21300236: grassANI3_011
+    21300238: grassANI3_012
+    21300240: grassANI3_013
+    21300242: grassANI3_014
+    21300244: grassTREE_000
+    21300246: grassTREE_001
+    21300248: grassTREE_002
+    21300250: grassTREE_003
+    21300252: grassTREE_004
+    21300254: grassTREE_005
+    21300256: grassTREE_006
+    21300258: grassTREE_007
+    21300260: grassTREE_008
+    21300262: grassTREE_009
+    21300264: grassTREE_010
+    21300266: grassTREE_011
+    21300268: grassTREE_012
+    21300270: grassTREE_013
+    21300272: grassTREE_014
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -145,8 +235,8 @@ TextureImporter:
       name: BullyAni_000
       rect:
         serializedVersion: 2
-        x: 264
-        y: 744
+        x: 735
+        y: 52
         width: 50
         height: 88
       alignment: 9
@@ -156,7 +246,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c6176f58144d0c419e825229baee832
+      spriteID: 08377b050f30fbc419115acedd6170c0
       vertices: []
       indices: 
       edges: []
@@ -165,8 +255,8 @@ TextureImporter:
       name: BullyAni_001
       rect:
         serializedVersion: 2
-        x: 370
-        y: 837
+        x: 630
+        y: 50
         width: 51
         height: 90
       alignment: 9
@@ -176,7 +266,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d8df2b8eacc95245a3188fe0bb1c978
+      spriteID: cdad41ecc57b138479f77113ba2a42b1
       vertices: []
       indices: 
       edges: []
@@ -185,8 +275,8 @@ TextureImporter:
       name: BullyAni_002
       rect:
         serializedVersion: 2
-        x: 317
-        y: 835
+        x: 525
+        y: 48
         width: 51
         height: 92
       alignment: 9
@@ -196,7 +286,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f4776948ca0f0d4488a3e27d85243a5
+      spriteID: b0c7fa3ffdc822a4bbf017a30b4cb37e
       vertices: []
       indices: 
       edges: []
@@ -205,8 +295,8 @@ TextureImporter:
       name: BullyAni_003
       rect:
         serializedVersion: 2
-        x: 264
-        y: 834
+        x: 420
+        y: 47
         width: 51
         height: 93
       alignment: 9
@@ -216,7 +306,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee6214f4203ae6a4799dba528dd71c5f
+      spriteID: c38469a27c36e764183b1592032e7f98
       vertices: []
       indices: 
       edges: []
@@ -225,8 +315,8 @@ TextureImporter:
       name: BullyAni_004
       rect:
         serializedVersion: 2
-        x: 423
-        y: 833
+        x: 213
+        y: 44
         width: 50
         height: 94
       alignment: 9
@@ -236,7 +326,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df44496c7e4005e47aa1e52e2b27d0ce
+      spriteID: 853f5d18139e46e43a73c5950d4d0a03
       vertices: []
       indices: 
       edges: []
@@ -245,8 +335,8 @@ TextureImporter:
       name: BullyAni_005
       rect:
         serializedVersion: 2
-        x: 264
-        y: 929
+        x: 1
+        y: 44
         width: 51
         height: 94
       alignment: 0
@@ -256,7 +346,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eb6af1cd3eced84f933778d9e39145b
+      spriteID: 498baaea828cf6c4c846a714a78bd700
       vertices: []
       indices: 
       edges: []
@@ -265,8 +355,8 @@ TextureImporter:
       name: BullyAni_006
       rect:
         serializedVersion: 2
-        x: 317
-        y: 929
+        x: 54
+        y: 44
         width: 51
         height: 94
       alignment: 0
@@ -276,7 +366,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1260fda83c0168e47a61698293432bbd
+      spriteID: 962b470e76be7e94b9c2f43673fda17e
       vertices: []
       indices: 
       edges: []
@@ -285,8 +375,8 @@ TextureImporter:
       name: BullyAni_007
       rect:
         serializedVersion: 2
-        x: 370
-        y: 929
+        x: 107
+        y: 44
         width: 51
         height: 94
       alignment: 0
@@ -296,7 +386,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6a5d865c11d4e54e9f9d1f7c45352bb
+      spriteID: 436de7edcbdde614c9448d383c8f1f19
       vertices: []
       indices: 
       edges: []
@@ -305,8 +395,8 @@ TextureImporter:
       name: BullyAni_008
       rect:
         serializedVersion: 2
-        x: 423
-        y: 929
+        x: 160
+        y: 44
         width: 51
         height: 94
       alignment: 0
@@ -316,7 +406,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35fa33a52ef1b4b478145577e82def93
+      spriteID: c66a1ea17c2f52142a6357f71c73995f
       vertices: []
       indices: 
       edges: []
@@ -325,8 +415,8 @@ TextureImporter:
       name: BullyAni_009
       rect:
         serializedVersion: 2
-        x: 370
-        y: 741
+        x: 265
+        y: 46
         width: 50
         height: 94
       alignment: 9
@@ -336,7 +426,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f92324aadaa8abb4689534c1aba86f8f
+      spriteID: d6bbedecbac346b4c982faab6200f274
       vertices: []
       indices: 
       edges: []
@@ -345,8 +435,8 @@ TextureImporter:
       name: BullyAni_010
       rect:
         serializedVersion: 2
-        x: 422
-        y: 737
+        x: 317
+        y: 46
         width: 50
         height: 94
       alignment: 9
@@ -356,7 +446,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c9789ef33e8a2a44afdcbc660ec68b8
+      spriteID: 58b34dbf783465245ae83c527843e611
       vertices: []
       indices: 
       edges: []
@@ -365,8 +455,8 @@ TextureImporter:
       name: BullyAni_011
       rect:
         serializedVersion: 2
-        x: 264
-        y: 648
+        x: 369
+        y: 46
         width: 49
         height: 94
       alignment: 0
@@ -376,7 +466,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85323767ad97980449154fded52215f5
+      spriteID: 42999df4bfde0df4cae82702dd487bf6
       vertices: []
       indices: 
       edges: []
@@ -385,8 +475,8 @@ TextureImporter:
       name: BullyAni_012
       rect:
         serializedVersion: 2
-        x: 317
-        y: 740
+        x: 473
+        y: 47
         width: 50
         height: 93
       alignment: 9
@@ -396,7 +486,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da1fee5c96570f240944ef6637059a42
+      spriteID: c7e3b1e952961294aa6ea08b69d92f5d
       vertices: []
       indices: 
       edges: []
@@ -405,8 +495,8 @@ TextureImporter:
       name: BullyAni_013
       rect:
         serializedVersion: 2
-        x: 369
-        y: 647
+        x: 578
+        y: 48
         width: 50
         height: 92
       alignment: 9
@@ -416,7 +506,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1fec1efda788e0e4f9c1915d34a7a6bf
+      spriteID: 1012f8acd29917e45b00c3c05bc0321a
       vertices: []
       indices: 
       edges: []
@@ -425,8 +515,8 @@ TextureImporter:
       name: BullyAni_014
       rect:
         serializedVersion: 2
-        x: 421
-        y: 645
+        x: 683
+        y: 50
         width: 50
         height: 90
       alignment: 9
@@ -436,7 +526,1807 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef82bacbdce92b841a325149e1ca15d9
+      spriteID: d5f5659bc04a1d3488537619912ca9f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_000
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 142
+        width: 210
+        height: 174
+      alignment: 9
+      pivot: {x: 0.50714284, y: 0.50574714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b98c46a29bcff74298c668f7e60887f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_001
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 142
+        width: 210
+        height: 174
+      alignment: 9
+      pivot: {x: 0.50714284, y: 0.50574714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f983c9f286d83fb4cb5f6731f93b4ba4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_002
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 318
+        width: 211
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd9681bcde5ce34b8503fb93d82237d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_003
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 318
+        width: 211
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc83beb091936004b89d3b44add70cf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_004
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 148
+        width: 211
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c9ea53dc3a0b1478648248bf465f25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_005
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 148
+        width: 211
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdc3550070e09a4c82add590573a01c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_006
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1353
+        width: 211
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c229facbaea5ff345b7b351b130e2e20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_007
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1173
+        width: 211
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dd979aceef2024d860161a5e7b9c5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_008
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 993
+        width: 211
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ddcf210e72f2c4a81b33b04a9f7286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_009
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 813
+        width: 211
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef029897a35a3394e85f24baf39d7358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_010
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 750
+        width: 211
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a273a4e0a4da70441b6d641c357b1f73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_011
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 142
+        width: 210
+        height: 174
+      alignment: 9
+      pivot: {x: 0.50714284, y: 0.50574714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c895ffebb9448a459829e0a26a70f21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_012
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 143
+        width: 210
+        height: 174
+      alignment: 9
+      pivot: {x: 0.50714284, y: 0.50574714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd099a1855775304397727299bccfb70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_013
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 637
+        width: 210
+        height: 174
+      alignment: 9
+      pivot: {x: 0.50714284, y: 0.50574714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23201ff04dcd6342ae325bbbb2f2bee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorFinal_014
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 574
+        width: 210
+        height: 174
+      alignment: 9
+      pivot: {x: 0.50714284, y: 0.50574714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a62ef66aeacdb45b15c669dccbc61f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_000
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 57
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce77eecf0a238a45b3ad711e92d43ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_001
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1447
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e336f3ab96d224895a0cae358f457f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_002
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1447
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ab8789802134e4ca032cb8a5b611fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_003
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1447
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b57f6cbade8cb459b0c2564b1d1b53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_004
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1447
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e839a6550571a1740967e4cf57c13ef1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_005
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1447
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff889ec5ce89ac46ad73ee39e814ca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_006
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1448
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb73936b41daba341b7e1a7769a9ce33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_007
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 328
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a56213aa8195cf489e66f34b3779f3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_008
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 58
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b87ded92d701444880f8e642752e870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_009
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 58
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74389a93f9919254da6cf1158c989d86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_010
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 328
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de680a04bd133845a0ff76a01fabed9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_011
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 328
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd138487d8050f4bb046daa8ff168ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_012
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 63
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7569f8db2e31bb4ca44a8e93f5c151f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_013
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 63
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf20e887a4494f4bb7dc926e8e91cfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_014
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 63
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cea92c2985da7440839bcf9f7246c77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_000
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1075
+        width: 57
+        height: 65
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bfe9fbbbbb5f0408e074f4e921f57a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_001
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 1163
+        width: 59
+        height: 65
+      alignment: 9
+      pivot: {x: 0.47457626, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637b40a04fb9fe04897a993a9dbd6390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_002
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1029
+        width: 56
+        height: 65
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3a2b9ad90ef734e945159a3c8e6838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_003
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 832
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5283019, y: 0.47580644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7598ba1be996f1c4cabdb04982bfec54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_004
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1889
+        width: 44
+        height: 57
+      alignment: 9
+      pivot: {x: 0.6136364, y: 0.48245615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d6bae275bc60843b88c3bbfd05ca30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_005
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1832
+        width: 44
+        height: 55
+      alignment: 9
+      pivot: {x: 0.6363636, y: 0.48181817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230a94608ed9423429f94f101db1b682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_006
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 963
+        width: 55
+        height: 64
+      alignment: 9
+      pivot: {x: 0.58181816, y: 0.4921875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc694f8510b0ace499dd697b095e8c0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_007
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 952
+        width: 54
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5925926, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68bf9197ac0e5e4488915057b4d8491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_008
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1775
+        width: 44
+        height: 55
+      alignment: 9
+      pivot: {x: 0.6363636, y: 0.48181817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924c65d6056c58f4f9e7372fe8f2bbd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_009
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1718
+        width: 44
+        height: 55
+      alignment: 9
+      pivot: {x: 0.6136364, y: 0.48181817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2488bb434d24ecf48ad9872695ee541c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_010
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 819
+        width: 50
+        height: 64
+      alignment: 9
+      pivot: {x: 0.64, y: 0.4921875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b1fd78c5e72f0459376e07efb4581c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_011
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1389
+        width: 62
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48412699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a300f84adb248944bb07ae8d72d46f32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_012
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 896
+        width: 53
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5849057, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a021d07f9d789ff4892acc175bdbfd98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_013
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1096
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ad7b4fe547352488af2559913bc99f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI1_014
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 885
+        width: 53
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5283019, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca46044f4daad943b20992b278e482c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_000
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 319
+        width: 57
+        height: 73
+      alignment: 9
+      pivot: {x: 0.39473686, y: 0.53424656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121631786f19a424bbfee30cfc060ec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_001
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 319
+        width: 55
+        height: 73
+      alignment: 9
+      pivot: {x: 0.44545454, y: 0.53424656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa8a9060bb107041a31b927c4998589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_002
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1309
+        width: 61
+        height: 78
+      alignment: 9
+      pivot: {x: 0.43442622, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59004b3588297434184dbdedcdef6088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_003
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1455
+        width: 69
+        height: 76
+      alignment: 9
+      pivot: {x: 0.48550725, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530da5ea01852d84ca6ca2b5ad5de4fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_004
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1230
+        width: 61
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4180328, y: 0.5064935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bec5d64e5e34d48966b6398034c16f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_005
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1378
+        width: 63
+        height: 76
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae172e6bd2d658c4eacf276eab1a01bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_006
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1454
+        width: 63
+        height: 77
+      alignment: 9
+      pivot: {x: 0.515873, y: 0.5064935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffd42237172ae84bbf86e913946a830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_007
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1377
+        width: 64
+        height: 76
+      alignment: 9
+      pivot: {x: 0.4296875, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8af750a82872b24ea8a6465d0cbb29d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_008
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 318
+        width: 61
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5163934, y: 0.527027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931a26c86eaa2e5438ecd042125fd7d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_009
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1456
+        width: 71
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5140845, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb1410e3d64c3e499f5d2a34fff52d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_010
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1299
+        width: 72
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5069444, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0861a2f7e9b7b848a86b8a8f18c5ca0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_011
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 319
+        width: 65
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4846154, y: 0.53424656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f16bac738326ec48852a186765f390e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_012
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1298
+        width: 61
+        height: 78
+      alignment: 9
+      pivot: {x: 0.43442622, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151a8ced0e236e94b8acfa01fcb7c593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_013
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1142
+        width: 58
+        height: 76
+      alignment: 9
+      pivot: {x: 0.4051724, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7b1a61a9ee14b4e8c9086e013f1743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI2_014
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1220
+        width: 60
+        height: 76
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c149d1c68b8f994c8c8528e4ac32a96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_000
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 4
+        width: 48
+        height: 51
+      alignment: 9
+      pivot: {x: 0.39583334, y: 0.48039216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838eae7f529336a40be31b06baedcc47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_001
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1668
+        width: 44
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.48958334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604a78f6031f63d4cae60d4cd6df31ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_002
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 5
+        width: 56
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a4f144d8363dc41a3f18e09781b7d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_003
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 3
+        width: 57
+        height: 58
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.49137932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1756a4b222ff04090ad1c0ab82fd47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_004
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 2
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862f1b4e90617fd4480e5764f17d55e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_005
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 3
+        width: 57
+        height: 58
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.5086207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c5a0d021d29544385a52c9b865effe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_006
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 3
+        width: 56
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48214287, y: 0.5086207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a28790cf3febc49b616019ddea2bbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_007
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1017
+        width: 56
+        height: 56
+      alignment: 9
+      pivot: {x: 0.48214287, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df4012aa6a81de499de8bc688d71ffa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_008
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 3
+        width: 56
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48214287, y: 0.5086207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160492ed3fc1e42448bc029e1d1fc151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_009
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 2
+        width: 55
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4909091, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135c597bac97d2241a27d00cd5432d8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_010
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 2
+        width: 55
+        height: 59
+      alignment: 9
+      pivot: {x: 0.47272727, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a586fb2a7fed4564b9832a001bb1b2a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_011
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1428
+        width: 53
+        height: 55
+      alignment: 9
+      pivot: {x: 0.4528302, y: 0.48181817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e4a54b9658abd42995618f9f4b7a65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_012
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1948
+        width: 45
+        height: 48
+      alignment: 9
+      pivot: {x: 0.42222223, y: 0.48958334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36c141692e6e5547a4bde9ee28c7e31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_013
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1618
+        width: 44
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.48958334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dac7b0a7a9e1184e89c66dfaae9f572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassANI3_014
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1998
+        width: 45
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4, y: 0.47959185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224f08335c00e8240ac0933e74344d9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_000
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1533
+        width: 319
+        height: 514
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50097275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbf479061e887148a2f9a6f15bc1b07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1532
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe56008f1c5ecc4b99beb0d480f068e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1015
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f05982d77e23849b1da53e7883c319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 498
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1327164ad0a506f44a10a54c4a8ce42b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_004
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1532
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ad6cc9fd639624a96ecafc646063ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_005
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1532
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdb871796f2e5c4fbb58d4678fc56ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_006
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1015
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4853da32cad99d44856c4a2b760f745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_007
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 498
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2457840e8944d9643a3ba54d78050e60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_008
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 911
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e2a81423127a349a28da7990eb3b12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_009
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 394
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa3d7de69b0848478579bb9b74cc9f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_010
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 930
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c30881b718a21e4cad58f84691b9cc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_011
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1532
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf4fa37820582440bd2c0e723b14e0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_012
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 413
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c4f530c592a5348aa5e3055432f759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_013
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 930
+        width: 319
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59aa385f82fe4204f8ad8793f5e4f5ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grassTREE_014
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 1533
+        width: 319
+        height: 514
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50097275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1167bd653d90540851d75b5efe74d3
       vertices: []
       indices: 
       edges: []
@@ -445,8 +2335,8 @@ TextureImporter:
       name: idle_000
       rect:
         serializedVersion: 2
-        x: 473
-        y: 611
+        x: 643
+        y: 1911
         width: 38
         height: 67
       alignment: 0
@@ -456,7 +2346,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b342c1215b0266749827c7f164306104
+      spriteID: 02ca6dbfa46672b43b8906a57de54909
       vertices: []
       indices: 
       edges: []
@@ -465,8 +2355,8 @@ TextureImporter:
       name: idle_001
       rect:
         serializedVersion: 2
-        x: 399
-        y: 576
+        x: 643
+        y: 1842
         width: 38
         height: 67
       alignment: 0
@@ -476,7 +2366,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4ce55878b2d1ef4098a92e042e44278
+      spriteID: 4461a111617c8b44d8d8efe6fa115fca
       vertices: []
       indices: 
       edges: []
@@ -485,8 +2375,8 @@ TextureImporter:
       name: idle_002
       rect:
         serializedVersion: 2
-        x: 472
-        y: 542
+        x: 643
+        y: 1773
         width: 38
         height: 67
       alignment: 0
@@ -496,7 +2386,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ee76302d932fcc40982daeae0f3cb72
+      spriteID: 46869750a96ac2840a872de3ebc74f97
       vertices: []
       indices: 
       edges: []
@@ -505,8 +2395,8 @@ TextureImporter:
       name: idle_003
       rect:
         serializedVersion: 2
-        x: 1
-        y: 598
+        x: 643
+        y: 1704
         width: 38
         height: 67
       alignment: 0
@@ -516,7 +2406,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79c7e8d893002c640ab9ddd2fdcceb1f
+      spriteID: f149a9c061a60c641a4ee52306e46e0b
       vertices: []
       indices: 
       edges: []
@@ -525,8 +2415,8 @@ TextureImporter:
       name: idle_004
       rect:
         serializedVersion: 2
-        x: 41
-        y: 598
+        x: 643
+        y: 1635
         width: 38
         height: 67
       alignment: 0
@@ -536,7 +2426,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ba6ba0c1873cf449a188d3b5a7509b4
+      spriteID: 54e012554dd723146b3690fa1e86f108
       vertices: []
       indices: 
       edges: []
@@ -545,8 +2435,8 @@ TextureImporter:
       name: idle_005
       rect:
         serializedVersion: 2
-        x: 81
-        y: 598
+        x: 643
+        y: 1566
         width: 38
         height: 67
       alignment: 0
@@ -556,7 +2446,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36d2daf1711cc824582ca69598dda7dd
+      spriteID: 615cad243f86c0e4b92c69616d16fb5d
       vertices: []
       indices: 
       edges: []
@@ -565,8 +2455,8 @@ TextureImporter:
       name: idle_006
       rect:
         serializedVersion: 2
-        x: 121
-        y: 598
+        x: 643
+        y: 1497
         width: 38
         height: 67
       alignment: 0
@@ -576,7 +2466,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64e19826af1c41747801b03f3797fae1
+      spriteID: 3a1959451267b584bb2f1b6e3457f82b
       vertices: []
       indices: 
       edges: []
@@ -585,8 +2475,8 @@ TextureImporter:
       name: idle_007
       rect:
         serializedVersion: 2
-        x: 161
-        y: 598
+        x: 643
+        y: 1428
         width: 38
         height: 67
       alignment: 0
@@ -596,7 +2486,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e32a5efbbe33c14abfde39a1a0b2d52
+      spriteID: c06bd71593c014848ad814a967f90f2e
       vertices: []
       indices: 
       edges: []
@@ -605,8 +2495,8 @@ TextureImporter:
       name: idle_008
       rect:
         serializedVersion: 2
-        x: 201
-        y: 598
+        x: 936
+        y: 325
         width: 38
         height: 67
       alignment: 0
@@ -616,7 +2506,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23edf9a158b6b9446ad4af1f9586611c
+      spriteID: 31679770e9c227c4f8a28f10c4854bf8
       vertices: []
       indices: 
       edges: []
@@ -625,8 +2515,8 @@ TextureImporter:
       name: idle_009
       rect:
         serializedVersion: 2
-        x: 241
-        y: 579
+        x: 976
+        y: 325
         width: 38
         height: 67
       alignment: 0
@@ -636,7 +2526,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd9b5ebf9708ffc44b97b64f319f86af
+      spriteID: 83c6e06b0ace50b4898c3db587d6cade
       vertices: []
       indices: 
       edges: []
@@ -645,8 +2535,8 @@ TextureImporter:
       name: idle_010
       rect:
         serializedVersion: 2
-        x: 313
-        y: 538
+        x: 643
+        y: 842
         width: 38
         height: 67
       alignment: 0
@@ -656,7 +2546,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac96e12109617c44d9143289d169e34c
+      spriteID: f752fdd93e05fdc44b7ca6884049fca8
       vertices: []
       indices: 
       edges: []
@@ -665,8 +2555,8 @@ TextureImporter:
       name: idle_011
       rect:
         serializedVersion: 2
-        x: 353
-        y: 509
+        x: 643
+        y: 773
         width: 38
         height: 67
       alignment: 0
@@ -676,7 +2566,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55d0f9bb49597cd44b8f2f62776ea4b0
+      spriteID: 83666f24eb3cb394b99c23c18d849d3c
       vertices: []
       indices: 
       edges: []
@@ -685,8 +2575,8 @@ TextureImporter:
       name: idle_012
       rect:
         serializedVersion: 2
-        x: 393
-        y: 507
+        x: 643
+        y: 704
         width: 38
         height: 67
       alignment: 0
@@ -696,7 +2586,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84c5acb8ffd68ad4794f4af81e61c7d2
+      spriteID: 3681455a1c25d4d47a22301366493561
       vertices: []
       indices: 
       edges: []
@@ -705,8 +2595,8 @@ TextureImporter:
       name: idle_013
       rect:
         serializedVersion: 2
-        x: 471
-        y: 473
+        x: 643
+        y: 635
         width: 38
         height: 67
       alignment: 0
@@ -716,7 +2606,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b54f2af53dae76d4b97eb899ed78412d
+      spriteID: b3fdd78ed33851745b2e1c0e65a8b99f
       vertices: []
       indices: 
       edges: []
@@ -725,8 +2615,8 @@ TextureImporter:
       name: idle_014
       rect:
         serializedVersion: 2
-        x: 469
-        y: 404
+        x: 643
+        y: 566
         width: 38
         height: 67
       alignment: 0
@@ -736,7 +2626,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 651dca6121633b446919e550f196d143
+      spriteID: d5521ab17dae65d42a72bd91aa7036a8
       vertices: []
       indices: 
       edges: []
@@ -746,7 +2636,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 667
+        y: 140
         width: 261
         height: 356
       alignment: 9
@@ -756,7 +2646,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df1865a222e1e194d980c2bcbafc0e70
+      spriteID: a020186afc0d0814395be20faab48c0b
       vertices: []
       indices: 
       edges: []
@@ -765,8 +2655,8 @@ TextureImporter:
       name: Walk_000
       rect:
         serializedVersion: 2
-        x: 474
-        y: 749
+        x: 2002
+        y: 763
         width: 37
         height: 67
       alignment: 9
@@ -776,7 +2666,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61e92a6f04fdfbf4ab206ce21629d900
+      spriteID: e30523c17a22d4448bdd43308931e581
       vertices: []
       indices: 
       edges: []
@@ -785,8 +2675,8 @@ TextureImporter:
       name: Walk_001
       rect:
         serializedVersion: 2
-        x: 476
-        y: 956
+        x: 1909
+        y: 681
         width: 35
         height: 67
       alignment: 9
@@ -796,7 +2686,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2100050c0a1acb142af43d355c674645
+      spriteID: 88f9b9823b817a541a68b9d5f93ebfed
       vertices: []
       indices: 
       edges: []
@@ -805,8 +2695,8 @@ TextureImporter:
       name: Walk_002
       rect:
         serializedVersion: 2
-        x: 475
-        y: 818
+        x: 1910
+        y: 750
         width: 36
         height: 67
       alignment: 9
@@ -816,7 +2706,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f3454b68b4541149af1f063d8ae3a06
+      spriteID: a8b0cd099dcfc8041b8b420493cdecac
       vertices: []
       indices: 
       edges: []
@@ -825,8 +2715,8 @@ TextureImporter:
       name: Walk_003
       rect:
         serializedVersion: 2
-        x: 476
-        y: 887
+        x: 1986
+        y: 694
         width: 34
         height: 67
       alignment: 0
@@ -836,7 +2726,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4463f390e3d592a44b0013b9f3e52d55
+      spriteID: 41e2a19ccec2dcd41a1dee95a3812a88
       vertices: []
       indices: 
       edges: []
@@ -845,8 +2735,8 @@ TextureImporter:
       name: Walk_004
       rect:
         serializedVersion: 2
-        x: 433
-        y: 508
+        x: 643
+        y: 498
         width: 36
         height: 66
       alignment: 9
@@ -856,7 +2746,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10d708f053e15a3418b587704f457b76
+      spriteID: 0da16708f7cc9944580c92950120139f
       vertices: []
       indices: 
       edges: []
@@ -865,8 +2755,8 @@ TextureImporter:
       name: Walk_005
       rect:
         serializedVersion: 2
-        x: 439
-        y: 576
+        x: 1982
+        y: 625
         width: 31
         height: 67
       alignment: 9
@@ -876,7 +2766,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b39fd3ebfc290094e93bb20ec1024f82
+      spriteID: 4f0ccab44cf5c944f827bf91619fdf4d
       vertices: []
       indices: 
       edges: []
@@ -885,8 +2775,8 @@ TextureImporter:
       name: Walk_006
       rect:
         serializedVersion: 2
-        x: 41
-        y: 529
+        x: 1909
+        y: 612
         width: 33
         height: 67
       alignment: 9
@@ -896,7 +2786,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dae2e5a4039f09c4cbd56a1a508bf767
+      spriteID: 060080f701733e645b43774b3a2d10db
       vertices: []
       indices: 
       edges: []
@@ -905,8 +2795,8 @@ TextureImporter:
       name: Walk_007
       rect:
         serializedVersion: 2
-        x: 1
-        y: 462
+        x: 1944
+        y: 559
         width: 29
         height: 67
       alignment: 9
@@ -916,7 +2806,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0854949178d4a34a8b2e195a332240c
+      spriteID: 4b6adc3c16b66394f8247eed1d793a57
       vertices: []
       indices: 
       edges: []
@@ -925,8 +2815,8 @@ TextureImporter:
       name: Walk_008
       rect:
         serializedVersion: 2
-        x: 281
-        y: 579
+        x: 2015
+        y: 625
         width: 30
         height: 67
       alignment: 9
@@ -936,7 +2826,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5377b3f6882195b439eab1552943034e
+      spriteID: 7bfe54c65d3a3c94a8b13cbdaabb1f52
       vertices: []
       indices: 
       edges: []
@@ -945,8 +2835,8 @@ TextureImporter:
       name: Walk_009
       rect:
         serializedVersion: 2
-        x: 433
-        y: 440
+        x: 1946
+        y: 628
         width: 34
         height: 66
       alignment: 9
@@ -956,7 +2846,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1ff7d9a9e4b1bc4e8a0696057523a15
+      spriteID: 6078634da45c7564f967c1debb42a137
       vertices: []
       indices: 
       edges: []
@@ -965,8 +2855,8 @@ TextureImporter:
       name: Walk_010
       rect:
         serializedVersion: 2
-        x: 1
-        y: 531
+        x: 1962
+        y: 765
         width: 38
         height: 65
       alignment: 9
@@ -976,7 +2866,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dccccef4002039548af29dd5f2608f41
+      spriteID: 69f8ca9dd1a7f714d8e68e66aa1865b5
       vertices: []
       indices: 
       edges: []
@@ -985,8 +2875,8 @@ TextureImporter:
       name: Walk_011
       rect:
         serializedVersion: 2
-        x: 315
-        y: 673
+        x: 688
+        y: 1551
         width: 42
         height: 65
       alignment: 9
@@ -996,7 +2886,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00eb1a66c6a2d5c469544902c760ca30
+      spriteID: e40fdebe7822942468370f4e7d6eaebe
       vertices: []
       indices: 
       edges: []
@@ -1005,8 +2895,8 @@ TextureImporter:
       name: Walk_012
       rect:
         serializedVersion: 2
-        x: 315
-        y: 607
+        x: 688
+        y: 1485
         width: 41
         height: 64
       alignment: 9
@@ -1016,7 +2906,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 462f51297a2b8ff429a9b40f429cdd4c
+      spriteID: 0b812e858aca84c438cfd7bf32e02d9a
       vertices: []
       indices: 
       edges: []
@@ -1025,8 +2915,8 @@ TextureImporter:
       name: Walk_013
       rect:
         serializedVersion: 2
-        x: 358
-        y: 578
+        x: 643
+        y: 1980
         width: 39
         height: 67
       alignment: 9
@@ -1036,7 +2926,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1d8c6cdd306b5f4187f24999a6681ec
+      spriteID: 26ab779d2b374654f983c3ef0130e22e
       vertices: []
       indices: 
       edges: []
@@ -1045,8 +2935,8 @@ TextureImporter:
       name: Walk_014
       rect:
         serializedVersion: 2
-        x: 474
-        y: 680
+        x: 1948
+        y: 696
         width: 36
         height: 67
       alignment: 9
@@ -1056,7 +2946,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d662ae6e37f7374e9ca123931435da4
+      spriteID: 00e2bf97d2d5a1a41a2f9ca23c693902
       vertices: []
       indices: 
       edges: []
