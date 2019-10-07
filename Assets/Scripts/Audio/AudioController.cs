@@ -97,12 +97,12 @@ public class AudioController : MonoBehaviour
         crow1.volume = .18f;
         crow2.volume = .18f;
         crow3.volume = .18f;
-        laugh.volume = .5f;
+        laugh.volume = .7f;
         scream1.volume = .7f;
         scream2.volume = .9f;
-        whisper1.volume = .4f;
-        whisper2.volume = .4f;
-        whisper3.volume = .4f;
+        whisper1.volume = .6f;
+        whisper2.volume = .6f;
+        whisper3.volume = .6f;
         doorbell.volume = .5f;
         buy.volume = .5f;
         levelMusic.Play();
