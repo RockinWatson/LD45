@@ -37,6 +37,9 @@ namespace Assets.Scripts
         [SerializeField]
         private Text _candyText = null;
 
+        [SerializeField]
+        private List<Text> _costTexts = null;
+
         private void Start()
         {
             totalItems = ShopItemList.Length - 1;
@@ -74,6 +77,11 @@ namespace Assets.Scripts
         private void UpdateUI()
         {
             _candyText.text = Player.PlayerInstance.PlayerData.Candy.ToString();
+
+            foreach(int index in _usedShopItems)
+            {
+                _costTexts[index].text = "-X-";
+            }
         }
 
         private void UpdatePointer()
@@ -134,10 +142,11 @@ namespace Assets.Scripts
                 }
                 else
                 {
-                    //Add Upgrade game object to Player
-                    AddUpgradeToPlayer(_shopIndex);
-                    _usedShopItems.Add(_shopIndex);
-                    AudioController.buy.Play();
+                    if (!_usedShopItems.Contains(_shopIndex))
+                    {
+                        //Add Upgrade game object to Player
+                        AddUpgradeToPlayer(_shopIndex);
+                    }
                 }
             }
         }
@@ -183,17 +192,56 @@ namespace Assets.Scripts
         }
 
         public void AddUpgradeToPlayer(int index) {
+            Player player = Player.PlayerInstance;
+            int candyCount = player.PlayerData.Candy;
+            int candyCost = 0;
             switch (index)
             {
                 case 3:
-                    if (Player.PlayerInstance.PlayerData.Candy >= _bucketUpgradeCost)
+                    if (candyCount >= _bucketUpgradeCost)
                     {
-                        //Add Bucket to GameObject
+                        candyCost = _bucketUpgradeCost;
+                    }
+                    break;
+                case 4:
+                    if (candyCount >= _bladesUpgradeCost)
+                    {
+                        candyCost = _bladesUpgradeCost;
+                    }
+                    break;
+                case 5:
+                    if (candyCount >= _maskUpgradeCost)
+                    {
+                        candyCost = _maskUpgradeCost;
+                    }
+                    break;
+                case 6:
+                    if (candyCount >= _glovesUpgradeCost)
+                    {
+                        candyCost = _glovesUpgradeCost;
+                    }
+                    break;
+                case 7:
+                    if (candyCount >= _hatUpgradeCost)
+                    {
+                        candyCost = _hatUpgradeCost;
                     }
                     break;
                 default:
                     break;
             }
+            if (candyCost > 0)
+            {
+                SetUpgrade(index - 3);
+                player.PlayerData.Candy -= candyCost;
+                _usedShopItems.Add(index);
+                AudioController.buy.Play();
+            }
+        }
+
+        private void SetUpgrade(int index)
+        {
+            CostumeManager.Get().SetUpgrade(index);
         }
 
         public void SetPointer(int listItem) {

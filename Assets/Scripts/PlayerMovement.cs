@@ -21,21 +21,23 @@ public class PlayerMovement : MonoBehaviour
         //Flip Animation
         if (_movement.x < 0f)
         {
-            Renderer.flipX = true;
+            CostumeManager.Get().FlipRenderersX(true);
+            //Renderer.flipX = true;
         }
         if (_movement.x > 0f)
         {
-            Renderer.flipX = false;
+            CostumeManager.Get().FlipRenderersX(false);
+            //Renderer.flipX = false;
         }
 
         //Animations
         if (_movement.x > 0f || _movement.y > 0f || _movement.x < 0f || _movement.y < 0f)
         {
-            animator.SetBool("isWalking", true);
+            CostumeManager.Get().SetWalking(true);
         }
         else
         {
-            animator.SetBool("isWalking", false);        
+            CostumeManager.Get().SetWalking(false);
         }
     }
 
