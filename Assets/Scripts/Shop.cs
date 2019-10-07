@@ -47,10 +47,20 @@ namespace Assets.Scripts
             if (Player.PlayerInstance.IsShopLoaded)
             {
                 Pause();
+
+                if (!AudioController.shopMusic.isPlaying)
+                {
+                    AudioController.shopMusic.Play();
+                }
+
                 SetPointer(_shopIndex);
                 if (Input.GetKeyDown(KeyCode.RightArrow))
                 {
                     _shopIndex++;
+                    if (_shopIndex <= totalItems)
+                    {
+                        AudioController.select.Play();
+                    }
                     if (_shopIndex >= totalItems)
                     {
                         _shopIndex = totalItems;
@@ -59,6 +69,10 @@ namespace Assets.Scripts
                 if (Input.GetKeyDown(KeyCode.LeftArrow))
                 {
                     _shopIndex--;
+                    if (_shopIndex >= 0)
+                    {
+                        AudioController.select.Play();
+                    }
                     if (_shopIndex <= 0)
                     {
                         _shopIndex = 0;
@@ -75,12 +89,14 @@ namespace Assets.Scripts
                             //Add Costume sprite to player
                             SetSpriteCostume(_shopIndex);
                             _usedShopItems.Add(_shopIndex);
+                            AudioController.buy.Play();
                         }
                         else
                         {
                             //Add Upgrade game object to Player
                             AddUpgradeToPlayer(_shopIndex);
                             _usedShopItems.Add(_shopIndex);
+                            AudioController.buy.Play();
                         }
                     }
                 }             
@@ -90,7 +106,8 @@ namespace Assets.Scripts
             //Leave Shop
             if (Input.GetKeyDown(KeyCode.Escape) && Player.PlayerInstance.IsShopLoaded)
             {
-                Resume();               
+                Resume();
+                
             }
         }
 
@@ -145,11 +162,15 @@ namespace Assets.Scripts
             ShopMenuUI.SetActive(false);
             Time.timeScale = 1f;
             Player.PlayerInstance.IsShopLoaded = false;
+            AudioController.shopMusic.mute = true;
+            AudioController.levelMusic.mute = false;
         }
 
         public void Pause() {
             ShopMenuUI.SetActive(true);
             Time.timeScale = 0f;
+            AudioController.shopMusic.mute = false;
+            AudioController.levelMusic.mute = true;
         }
     }
 }
