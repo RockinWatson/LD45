@@ -53,18 +53,36 @@ namespace Assets.Scripts
         private void OnTriggerStay2D(Collider2D collision)
         {
             //GOTO Shop
-            if (EKeyPressed && collision.gameObject.name == "ShopCollision")
+            if (EKeyPressed)
             {
-                //Go To Shop
-                _isShopLoaded = true;
+                if (collision.gameObject.name == "ShopCollision")
+                {
+                    //Go To Shop
+                    _isShopLoaded = true;
+                }
+                //Knock on Door for Candy
+                if (collision.gameObject.name == "HouseCollision")
+                {
+                    //Get Candy
+                    //PlayerData.Candy += 1;
+                    //collision.gameObject.SetActive(false);
+
+                    House house = collision.GetComponentInParent<House>();
+                    house.TryToGetCandy();
+                }
+                //Knock on Door for Candy
+                if (collision.gameObject.tag == "Candy")
+                {
+                    //Get Candy
+                    Candy candy = collision.GetComponent<Candy>();
+                    candy.SuckUpIntoPlayer();
+                }
             }
-            //Knock on Door for Candy
-            if (EKeyPressed && collision.gameObject.name == "HouseCollision")
-            {
-                //Get Candy
-                PlayerData.Candy += 1;
-                collision.gameObject.SetActive(false);
-            }
+        }
+
+        public void AddCandy(int count = 1)
+        {
+            PlayerData.Candy += count;
         }
     }
 }
