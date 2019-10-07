@@ -73,3 +73,6 @@ TagManager:
   - name: Candy
     uniqueID: 677086217
     locked: 0
+  - name: Fence
+    uniqueID: 1769532177
+    locked: 0
