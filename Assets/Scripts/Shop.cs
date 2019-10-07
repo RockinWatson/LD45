@@ -1,6 +1,7 @@
 ﻿using Assets.Scripts.Objects;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
@@ -33,17 +34,16 @@ namespace Assets.Scripts
         private int _glovesUpgradeCost = 100;
         private int _hatUpgradeCost = 125;
 
-        private RuntimeAnimatorController _ghostAnimatorController;
+        [SerializeField]
+        private Text _candyText = null;
 
         private void Start()
         {
             totalItems = ShopItemList.Length - 1;
-            _ghostAnimatorController = (RuntimeAnimatorController)Resources.Load("TaylorArt/GhostIdle_000");
         }
 
         private void Update()
         {
-            
             if (Player.PlayerInstance.IsShopLoaded)
             {
                 Pause();
@@ -53,65 +53,13 @@ namespace Assets.Scripts
                     AudioController.shopMusic.Play();
                 }
 
-                SetPointer(_shopIndex);
-                if (Input.GetKeyDown(KeyCode.RightArrow))
-                {
-                    _shopIndex++;
-                    if (_shopIndex <= totalItems)
-                    {
-                        AudioController.select.Play();
-                    }
-                    if (_shopIndex >= totalItems)
-                    {
-                        _shopIndex = totalItems;
-                    }                   
-                }
-                if (Input.GetKeyDown(KeyCode.LeftArrow))
-                {
-                    _shopIndex--;
-                    if (_shopIndex >= 0)
-                    {
-                        AudioController.select.Play();
-                    }
-                    if (_shopIndex <= 0)
-                    {
-                        _shopIndex = 0;
-                    }
-                }
+                UpdateUI();
+
+                UpdatePointer();
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    //if (!_usedShopItems.Contains(_shopIndex))
-                    {
-                        //Add Item To Player
-                        if (_shopIndex >= 0 && _shopIndex <= 2)
-                        {
-                            if (!_usedShopItems.Contains(_shopIndex))
-                            {
-                                //Add Costume sprite to player
-                                //CostumeManager.Get().SetCostume(_shopIndex);
-                                //SetSpriteCostume(_shopIndex);
-                                TryToBuyAndSetCostume(_shopIndex);
-                            } else
-                            {
-                                int currentCostume = CostumeManager.Get().GetCurrentCostume();
-                                if(currentCostume == _shopIndex+1)
-                                {
-                                    SetCostume(0);
-                                } else
-                                {
-                                    SetCostume(_shopIndex + 1);
-                                }
-                            }
-                        }
-                        else
-                        {
-                            //Add Upgrade game object to Player
-                            AddUpgradeToPlayer(_shopIndex);
-                            _usedShopItems.Add(_shopIndex);
-                            AudioController.buy.Play();
-                        }
-                    }
+                    MakeSelection();
                 }             
             }
 
@@ -120,7 +68,77 @@ namespace Assets.Scripts
             if (Input.GetKeyDown(KeyCode.Escape) && Player.PlayerInstance.IsShopLoaded)
             {
                 Resume();
-                
+            }
+        }
+
+        private void UpdateUI()
+        {
+            _candyText.text = Player.PlayerInstance.PlayerData.Candy.ToString();
+        }
+
+        private void UpdatePointer()
+        {
+            SetPointer(_shopIndex);
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                _shopIndex++;
+                if (_shopIndex <= totalItems)
+                {
+                    AudioController.select.Play();
+                }
+                if (_shopIndex >= totalItems)
+                {
+                    _shopIndex = totalItems;
+                }
+            }
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                _shopIndex--;
+                if (_shopIndex >= 0)
+                {
+                    AudioController.select.Play();
+                }
+                if (_shopIndex <= 0)
+                {
+                    _shopIndex = 0;
+                }
+            }
+        }
+
+        private void MakeSelection()
+        {
+            //if (!_usedShopItems.Contains(_shopIndex))
+            {
+                //Add Item To Player
+                if (_shopIndex >= 0 && _shopIndex <= 2)
+                {
+                    if (!_usedShopItems.Contains(_shopIndex))
+                    {
+                        //Add Costume sprite to player
+                        //CostumeManager.Get().SetCostume(_shopIndex);
+                        //SetSpriteCostume(_shopIndex);
+                        TryToBuyAndSetCostume(_shopIndex);
+                    }
+                    else
+                    {
+                        int currentCostume = CostumeManager.Get().GetCurrentCostume();
+                        if (currentCostume == _shopIndex + 1)
+                        {
+                            SetCostume(0);
+                        }
+                        else
+                        {
+                            SetCostume(_shopIndex + 1);
+                        }
+                    }
+                }
+                else
+                {
+                    //Add Upgrade game object to Player
+                    AddUpgradeToPlayer(_shopIndex);
+                    _usedShopItems.Add(_shopIndex);
+                    AudioController.buy.Play();
+                }
             }
         }
 
