@@ -21,6 +21,9 @@ namespace Assets.Scripts
         public Text CandyText;
 
         private bool EKeyPressed;
+        private bool SpaceKeyPressed;
+
+        public Animator _animator;
 
         private void OnEnable()
         {
@@ -41,6 +44,7 @@ namespace Assets.Scripts
             else
             {
                 _playerInstance = this;
+                _animator = this.GetComponent<Animator>();
             }
         }
 
@@ -48,6 +52,10 @@ namespace Assets.Scripts
         {
             CandyText.text = PlayerData.Candy.ToString();
             EKeyPressed = Input.GetKeyDown(KeyCode.E);
+            SpaceKeyPressed = Input.GetKeyDown(KeyCode.Space);
+
+            //@TEMP:
+            DebugInput();
         }
 
         private void OnTriggerStay2D(Collider2D collision)
@@ -81,6 +89,18 @@ namespace Assets.Scripts
                     candy.SuckUpIntoPlayer();
                 }
             }
+            if(SpaceKeyPressed)
+            {
+                if (collision.gameObject.tag == "Enemy")
+                {
+                    Bully bully = collision.GetComponent<Bully>();
+                    //@TODO: Modify damage by costume strength?
+                    if(bully.TryToDamage(1))
+                    {
+                        _animator.SetTrigger("Attack");
+                    }
+                }
+            }
         }
 
         public void AddCandy(int count = 1)
@@ -99,6 +119,14 @@ namespace Assets.Scripts
             {
                 PlayerData.Candy = 0;
                 return (newAmount + count);
+            }
+        }
+
+        private void DebugInput()
+        {
+            if (Input.GetKeyDown(KeyCode.Y))
+            {
+                PlayerData.Candy += 10;
             }
         }
     }
