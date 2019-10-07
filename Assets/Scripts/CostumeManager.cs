@@ -27,7 +27,7 @@ public class CostumeManager : MonoBehaviour
         SKATES = 1,
         MASK = 2,
         GLOVES = 3,
-        HATE = 4,
+        HAT = 4,
     };
 
     private void Awake()
@@ -131,5 +131,40 @@ public class CostumeManager : MonoBehaviour
             damage *= 3.0f;
         }
         return damage;
+    }
+
+    public float GetCandyMultiplier()
+    {
+        float multiplier = 1f;
+        switch(_currentCostume)
+        {
+            case 0:
+                multiplier = 1f;
+                break;
+            case 1:
+                multiplier = 1.5f;
+                break;
+            case 2:
+                multiplier = 2f;
+                break;
+            case 3:
+                multiplier = 3f;
+                break;
+        }
+
+        if(IsUpgradeActive(UpgradeIndex.BUCKET))
+        {
+            multiplier += .25f;
+        }
+        if (IsUpgradeActive(UpgradeIndex.MASK))
+        {
+            multiplier += .5f;
+        }
+        if (IsUpgradeActive(UpgradeIndex.HAT))
+        {
+            multiplier += 1f;
+        }
+
+        return multiplier;
     }
 }

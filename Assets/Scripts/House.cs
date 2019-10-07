@@ -57,7 +57,8 @@ public class House : MonoBehaviour
     private void GetCandy()
     {
         //@TODO: Spawn Candy...
-        for(int i = 0; i < _candyCount; ++i)
+        int adjustedCandyCount = (int)(_candyCount * CostumeManager.Get().GetCandyMultiplier());
+        for(int i = 0; i < adjustedCandyCount; ++i)
         {
             Vector3 spawnPos = _door.transform.position;
             Candy candy = CandyManager.Get().GetCandy(spawnPos);
