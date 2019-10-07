@@ -67,6 +67,7 @@ public class House : MonoBehaviour
             Rigidbody2D rigidBody = candy.GetComponent<Rigidbody2D>();
             Vector2 force = Vector2.down;
             force.x = Random.Range(-.5f, .5f);
+            force.y = Random.Range(-.6f, -1.0f);
             force *= 9f;
             rigidBody.AddForceAtPosition(force, candy.transform.position, ForceMode2D.Impulse);
             AudioController.doorbell.Play();
