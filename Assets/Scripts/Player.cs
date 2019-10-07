@@ -2,6 +2,7 @@
 using Assets.Scripts.Objects;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
 {
@@ -19,6 +20,12 @@ namespace Assets.Scripts
         public PlayerData PlayerData { get; private set; }
 
         public Text CandyText;
+        [SerializeField]
+        private Text TimeLeftText;
+
+        private float _gameTimer = 3f * 60f; // 3 minutes
+        //private float _gameTimer = 9f; // 3 minutes
+        public float GetGamerTimer() { return _gameTimer; }
 
         private bool EKeyPressed;
         private bool SpaceKeyPressed;
@@ -50,6 +57,13 @@ namespace Assets.Scripts
 
         private void Update()
         {
+            _gameTimer -= Time.deltaTime;
+            if(_gameTimer < 0f)
+            {
+                SceneManager.LoadScene("EndScene");
+            }
+
+            TimeLeftText.text = _gameTimer.ToString("0.0");
             CandyText.text = PlayerData.Candy.ToString();
             EKeyPressed = Input.GetKeyDown(KeyCode.E);
             SpaceKeyPressed = Input.GetKeyDown(KeyCode.Space);

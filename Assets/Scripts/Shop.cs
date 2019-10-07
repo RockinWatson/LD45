@@ -36,6 +36,8 @@ namespace Assets.Scripts
 
         [SerializeField]
         private Text _candyText = null;
+        [SerializeField]
+        private Text _timeLeftText = null;
 
         [SerializeField]
         private List<Text> _costTexts = null;
@@ -77,8 +79,9 @@ namespace Assets.Scripts
         private void UpdateUI()
         {
             _candyText.text = Player.PlayerInstance.PlayerData.Candy.ToString();
+            _timeLeftText.text = Player.PlayerInstance.GetGamerTimer().ToString("0.0");
 
-            foreach(int index in _usedShopItems)
+            foreach (int index in _usedShopItems)
             {
                 _costTexts[index].text = "-X-";
             }
