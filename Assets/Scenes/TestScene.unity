@@ -31710,6 +31710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WindSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 7193828567726973162, guid: f5b57ca4e4af6f94fa2c7116e97f0316,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7193828567726973140, guid: f5b57ca4e4af6f94fa2c7116e97f0316,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31790,6 +31795,11 @@ PrefabInstance:
         type: 3}
       propertyPath: xMin
       value: 35.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193828567726973141, guid: f5b57ca4e4af6f94fa2c7116e97f0316,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5b57ca4e4af6f94fa2c7116e97f0316, type: 3}
