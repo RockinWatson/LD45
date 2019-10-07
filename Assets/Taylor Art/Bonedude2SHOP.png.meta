@@ -1,0 +1,7356 @@
+fileFormatVersion: 2
+guid: cc1c16f59ce1d0445aad9f889ca803b8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bonedude2SHOP
+    21300002: BucketAttack_000
+    21300004: BucketAttack_001
+    21300006: BucketAttack_002
+    21300008: BucketAttack_003
+    21300010: BucketAttack_004
+    21300012: BucketAttack_005
+    21300014: BucketAttack_006
+    21300016: BucketAttack_007
+    21300018: BucketAttack_008
+    21300020: BucketAttack_009
+    21300022: BucketAttack_010
+    21300024: BucketAttack_011
+    21300026: BucketAttack_012
+    21300028: BucketAttack_013
+    21300030: BucketAttack_014
+    21300032: BucketIdle_000
+    21300034: BucketIdle_001
+    21300036: BucketIdle_002
+    21300038: BucketIdle_003
+    21300040: BucketIdle_004
+    21300042: BucketIdle_005
+    21300044: BucketIdle_006
+    21300046: BucketIdle_007
+    21300048: BucketIdle_008
+    21300050: BucketIdle_009
+    21300052: BucketIdle_010
+    21300054: BucketIdle_011
+    21300056: BucketIdle_012
+    21300058: BucketIdle_013
+    21300060: BucketIdle_014
+    21300062: BucketWalk_000
+    21300064: BucketWalk_001
+    21300066: BucketWalk_002
+    21300068: BucketWalk_003
+    21300070: BucketWalk_004
+    21300072: BucketWalk_005
+    21300074: BucketWalk_006
+    21300076: BucketWalk_007
+    21300078: BucketWalk_008
+    21300080: BucketWalk_009
+    21300082: BucketWalk_010
+    21300084: BucketWalk_011
+    21300086: BucketWalk_012
+    21300088: BucketWalk_013
+    21300090: BucketWalk_014
+    21300092: DinoAttack_000
+    21300094: DinoAttack_001
+    21300096: DinoAttack_002
+    21300098: DinoAttack_003
+    21300100: DinoAttack_004
+    21300102: DinoAttack_005
+    21300104: DinoAttack_006
+    21300106: DinoAttack_007
+    21300108: DinoAttack_008
+    21300110: DinoAttack_009
+    21300112: DinoAttack_010
+    21300114: DinoAttack_011
+    21300116: DinoAttack_012
+    21300118: DinoAttack_013
+    21300120: DinoAttack_014
+    21300122: DinoIdle_000
+    21300124: DinoIdle_001
+    21300126: DinoIdle_002
+    21300128: DinoIdle_003
+    21300130: DinoIdle_004
+    21300132: DinoIdle_005
+    21300134: DinoIdle_006
+    21300136: DinoIdle_007
+    21300138: DinoIdle_008
+    21300140: DinoIdle_009
+    21300142: DinoIdle_010
+    21300144: DinoIdle_011
+    21300146: DinoIdle_012
+    21300148: DinoIdle_013
+    21300150: DinoIdle_014
+    21300152: DinoWalk_000
+    21300154: DinoWalk_001
+    21300156: DinoWalk_002
+    21300158: DinoWalk_003
+    21300160: DinoWalk_004
+    21300162: DinoWalk_005
+    21300164: DinoWalk_006
+    21300166: DinoWalk_007
+    21300168: DinoWalk_008
+    21300170: DinoWalk_009
+    21300172: DinoWalk_010
+    21300174: DinoWalk_011
+    21300176: DinoWalk_012
+    21300178: DinoWalk_013
+    21300180: DinoWalk_014
+    21300182: fight_000
+    21300184: fight_001
+    21300186: fight_002
+    21300188: fight_003
+    21300190: fight_004
+    21300192: fight_005
+    21300194: fight_006
+    21300196: fight_007
+    21300198: fight_008
+    21300200: fight_009
+    21300202: fight_010
+    21300204: fight_011
+    21300206: fight_012
+    21300208: fight_013
+    21300210: fight_014
+    21300212: GhostAttack_000
+    21300214: GhostAttack_001
+    21300216: GhostAttack_002
+    21300218: GhostAttack_003
+    21300220: GhostAttack_004
+    21300222: GhostAttack_005
+    21300224: GhostAttack_006
+    21300226: GhostAttack_007
+    21300228: GhostAttack_008
+    21300230: GhostAttack_009
+    21300232: GhostAttack_010
+    21300234: GhostAttack_011
+    21300236: GhostAttack_012
+    21300238: GhostAttack_013
+    21300240: GhostAttack_014
+    21300242: GhostIdle_000
+    21300244: GhostIdle_001
+    21300246: GhostIdle_002
+    21300248: GhostIdle_003
+    21300250: GhostIdle_004
+    21300252: GhostIdle_005
+    21300254: GhostIdle_006
+    21300256: GhostIdle_007
+    21300258: GhostIdle_008
+    21300260: GhostIdle_009
+    21300262: GhostIdle_010
+    21300264: GhostIdle_011
+    21300266: GhostIdle_012
+    21300268: GhostIdle_013
+    21300270: GhostIdle_014
+    21300272: GhostWalk_000
+    21300274: GhostWalk_001
+    21300276: GhostWalk_002
+    21300278: GhostWalk_003
+    21300280: GhostWalk_004
+    21300282: GhostWalk_005
+    21300284: GhostWalk_006
+    21300286: GhostWalk_007
+    21300288: GhostWalk_008
+    21300290: GhostWalk_009
+    21300292: GhostWalk_010
+    21300294: GhostWalk_011
+    21300296: GhostWalk_012
+    21300298: GhostWalk_013
+    21300300: GhostWalk_014
+    21300302: GlovesAttack_000
+    21300304: GlovesAttack_001
+    21300306: GlovesAttack_002
+    21300308: GlovesAttack_003
+    21300310: GlovesAttack_004
+    21300312: GlovesAttack_005
+    21300314: GlovesAttack_006
+    21300316: GlovesAttack_007
+    21300318: GlovesAttack_008
+    21300320: GlovesAttack_009
+    21300322: GlovesAttack_010
+    21300324: GlovesAttack_011
+    21300326: GlovesAttack_012
+    21300328: GlovesAttack_013
+    21300330: GlovesAttack_014
+    21300332: GlovesIdle_000
+    21300334: GlovesIdle_001
+    21300336: GlovesIdle_002
+    21300338: GlovesIdle_003
+    21300340: GlovesIdle_004
+    21300342: GlovesIdle_005
+    21300344: GlovesIdle_006
+    21300346: GlovesIdle_007
+    21300348: GlovesIdle_008
+    21300350: GlovesIdle_009
+    21300352: GlovesIdle_010
+    21300354: GlovesIdle_011
+    21300356: GlovesIdle_012
+    21300358: GlovesIdle_013
+    21300360: GlovesIdle_014
+    21300362: GlovesWalk_000
+    21300364: GlovesWalk_001
+    21300366: GlovesWalk_002
+    21300368: GlovesWalk_003
+    21300370: GlovesWalk_004
+    21300372: GlovesWalk_005
+    21300374: GlovesWalk_006
+    21300376: GlovesWalk_007
+    21300378: GlovesWalk_008
+    21300380: GlovesWalk_009
+    21300382: GlovesWalk_010
+    21300384: GlovesWalk_011
+    21300386: GlovesWalk_012
+    21300388: GlovesWalk_013
+    21300390: GlovesWalk_014
+    21300392: HatIdle_000
+    21300394: HatIdle_001
+    21300396: HatIdle_002
+    21300398: HatIdle_003
+    21300400: HatIdle_004
+    21300402: HatIdle_005
+    21300404: HatIdle_006
+    21300406: HatIdle_007
+    21300408: HatIdle_008
+    21300410: HatIdle_009
+    21300412: HatIdle_010
+    21300414: HatIdle_011
+    21300416: HatIdle_012
+    21300418: HatIdle_013
+    21300420: HatIdle_014
+    21300422: HatWalk_000
+    21300424: HatWalk_001
+    21300426: HatWalk_002
+    21300428: HatWalk_003
+    21300430: HatWalk_004
+    21300432: HatWalk_005
+    21300434: HatWalk_006
+    21300436: HatWalk_007
+    21300438: HatWalk_008
+    21300440: HatWalk_009
+    21300442: HatWalk_010
+    21300444: HatWalk_011
+    21300446: HatWalk_012
+    21300448: HatWalk_013
+    21300450: HatWalk_014
+    21300452: MaskIdle_000
+    21300454: MaskIdle_001
+    21300456: MaskIdle_002
+    21300458: MaskIdle_003
+    21300460: MaskIdle_004
+    21300462: MaskIdle_005
+    21300464: MaskIdle_006
+    21300466: MaskIdle_007
+    21300468: MaskIdle_008
+    21300470: MaskIdle_009
+    21300472: MaskIdle_010
+    21300474: MaskIdle_011
+    21300476: MaskIdle_012
+    21300478: MaskIdle_013
+    21300480: MaskIdle_014
+    21300482: MaskWalk_000
+    21300484: MaskWalk_001
+    21300486: MaskWalk_002
+    21300488: MaskWalk_003
+    21300490: MaskWalk_004
+    21300492: MaskWalk_005
+    21300494: MaskWalk_006
+    21300496: MaskWalk_007
+    21300498: MaskWalk_008
+    21300500: MaskWalk_009
+    21300502: MaskWalk_010
+    21300504: MaskWalk_011
+    21300506: MaskWalk_012
+    21300508: MaskWalk_013
+    21300510: MaskWalk_014
+    21300512: PrincessAttack_000
+    21300514: PrincessAttack_001
+    21300516: PrincessAttack_002
+    21300518: PrincessAttack_003
+    21300520: PrincessAttack_004
+    21300522: PrincessAttack_005
+    21300524: PrincessAttack_006
+    21300526: PrincessAttack_007
+    21300528: PrincessAttack_008
+    21300530: PrincessAttack_009
+    21300532: PrincessAttack_010
+    21300534: PrincessAttack_011
+    21300536: PrincessAttack_012
+    21300538: PrincessAttack_013
+    21300540: PrincessAttack_014
+    21300542: PrincessIdle_000
+    21300544: PrincessIdle_001
+    21300546: PrincessIdle_002
+    21300548: PrincessIdle_003
+    21300550: PrincessIdle_004
+    21300552: PrincessIdle_005
+    21300554: PrincessIdle_006
+    21300556: PrincessIdle_007
+    21300558: PrincessIdle_008
+    21300560: PrincessIdle_009
+    21300562: PrincessIdle_010
+    21300564: PrincessIdle_011
+    21300566: PrincessIdle_012
+    21300568: PrincessIdle_013
+    21300570: PrincessIdle_014
+    21300572: PrincessWalk_000
+    21300574: PrincessWalk_001
+    21300576: PrincessWalk_002
+    21300578: PrincessWalk_003
+    21300580: PrincessWalk_004
+    21300582: PrincessWalk_005
+    21300584: PrincessWalk_006
+    21300586: PrincessWalk_007
+    21300588: PrincessWalk_008
+    21300590: PrincessWalk_009
+    21300592: PrincessWalk_010
+    21300594: PrincessWalk_011
+    21300596: PrincessWalk_012
+    21300598: PrincessWalk_013
+    21300600: PrincessWalk_014
+    21300602: SkateAttack_000
+    21300604: SkateAttack_001
+    21300606: SkateAttack_002
+    21300608: SkateAttack_003
+    21300610: SkateAttack_004
+    21300612: SkateAttack_005
+    21300614: SkateAttack_006
+    21300616: SkateAttack_007
+    21300618: SkateAttack_008
+    21300620: SkateAttack_009
+    21300622: SkateAttack_010
+    21300624: SkateAttack_011
+    21300626: SkateAttack_012
+    21300628: SkateAttack_013
+    21300630: SkateAttack_014
+    21300632: SkateIdle_000
+    21300634: SkateIdle_001
+    21300636: SkateIdle_002
+    21300638: SkateIdle_003
+    21300640: SkateIdle_004
+    21300642: SkateIdle_005
+    21300644: SkateIdle_006
+    21300646: SkateIdle_007
+    21300648: SkateIdle_008
+    21300650: SkateIdle_009
+    21300652: SkateIdle_010
+    21300654: SkateIdle_011
+    21300656: SkateIdle_012
+    21300658: SkateIdle_013
+    21300660: SkateIdle_014
+    21300662: SkateWalk_000
+    21300664: SkateWalk_001
+    21300666: SkateWalk_002
+    21300668: SkateWalk_003
+    21300670: SkateWalk_004
+    21300672: SkateWalk_005
+    21300674: SkateWalk_006
+    21300676: SkateWalk_007
+    21300678: SkateWalk_008
+    21300680: SkateWalk_009
+    21300682: SkateWalk_010
+    21300684: SkateWalk_011
+    21300686: SkateWalk_012
+    21300688: SkateWalk_013
+    21300690: SkateWalk_014
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BucketAttack_000
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 196
+        width: 25
+        height: 33
+      alignment: 9
+      pivot: {x: 0.88, y: 0.6363636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924650486c0205745b38b864ad2d833a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_001
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 361
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.8148148, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf6bc4e48ef661498af3c87b5caffb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_002
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 230
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.7407407, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a67cc64d1494f4f85454a27c866db1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_003
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 703
+        width: 28
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6785714, y: 0.51428574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8151150f6f026b74fa79e82eabbdeefd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_004
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 194
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5570c42d07280fa469cdef334db58c95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_005
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 697
+        width: 31
+        height: 37
+      alignment: 9
+      pivot: {x: 0.3548387, y: 0.43243244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f500f4b384d044090ea04babf2aeae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_006
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 708
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.18518518, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ba2a969a7aa754fa55d434548520ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_007
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 158
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.18518518, y: 0.38235295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31a86533f5709f49ab2d00d9a9d7859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_008
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 231
+        width: 27
+        height: 33
+      alignment: 9
+      pivot: {x: 0.18518518, y: 0.36363637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d7380d22de4dc49988505afa406641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_009
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 61
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.25925925, y: 0.38235295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f31410773c43149970dc084b2547c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_010
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 367
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.37037036, y: 0.4857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0eccf29f406be418b60819f6dc2554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_011
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 689
+        width: 27
+        height: 39
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd94e4e1073a244c8f0c0ba3c92e2b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_012
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 602
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713eb1e985d5ec642944eea3b810aaa8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_013
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 685
+        width: 29
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6896552, y: 0.55263156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f939c96da48d30a43ad9a4e9741f1297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAttack_014
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 685
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.78571427, y: 0.61764705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b99aafa81749e048be8105638ccfa09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_000
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 331
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.5147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bfeb4d3cd7ed44e8b22e2af1d85aee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_001
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 361
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d60c843500d1ca44a52109d437c55ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_002
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 685
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87225605ef195604b9d723bb2e64940c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_003
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 361
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4073f900f286bac49a4d043d845e85f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_004
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 361
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb8534327957bb429bddfe150a96715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_005
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 703
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e356db55e2643e41a66edcfab0465e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_006
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 533
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848b79dd1b98d8b4180166f8fa2a9b95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_007
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 330
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62981016c57d3ab479f078b8fccb9618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_008
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 705
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5d6c03155adbc48b63f042ae7bcd5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_009
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 685
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4852941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511ae23404c39ef4198b6fe510b3eca7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_010
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 367
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d659ac707aaf5f409e60c74ce5d29b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_011
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 299
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.4852941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d58ba290e7e1db40833c6220911c942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_012
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 705
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819c7fe553f57d443bea5964919f650e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_013
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 706
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7551b465eac086744af04d2b1bbfd57d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketIdle_014
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 295
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a914bd1dc562249a7e66f3f3838d04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_000
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 686
+        width: 33
+        height: 37
+      alignment: 9
+      pivot: {x: 0.37878788, y: 0.45945945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa9efedfb95327469b39257166037a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_001
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 293
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.16666667, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd17169c877ac348b8560d72cd8a030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_002
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 708
+        width: 28
+        height: 35
+      alignment: 9
+      pivot: {x: 0.08928572, y: 0.34285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a696fae8458c34b8075b1890691adf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_003
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 452
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: -0.018518519, y: 0.25714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacaccba7a44ed044be041dcaa61523a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_004
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 299
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: -0.09615385, y: 0.20588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32f2f9d413830e42b91d5563d211f45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_005
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 465
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: 0.16666667, y: 0.37142858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021173bb751a7e848a4a359bdb26880f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_006
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 685
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.48214287, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b032a351b4224c34eac1b9d7425f0d86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_007
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 699
+        width: 36
+        height: 35
+      alignment: 9
+      pivot: {x: 0.625, y: 0.6571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2388894d3979f584b9c1abe132398efb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_008
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 27
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.82258064, y: 0.78125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88f6cf940958554fb1bb19ff7cf251c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_009
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 430
+        width: 29
+        height: 33
+      alignment: 9
+      pivot: {x: 0.8103448, y: 0.75757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e35271137afd043998f19bc14efcab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_010
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 348
+        width: 28
+        height: 33
+      alignment: 9
+      pivot: {x: 0.76785713, y: 0.72727275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d5c708419fd4c4487027d1d1e7ebac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_011
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 357
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.73214287, y: 0.6764706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5d9f58a6dc0b443b6a2f932d2096e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_012
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 371
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6851852, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50d60646c8014449a499fa66134417b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_013
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 361
+        width: 28
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5535714, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc74a16b7355874dac8eb62f22458dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketWalk_014
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 335
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.42592594, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da73c18e3f22034ca2d8b108dde7a2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_000
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 873
+        width: 52
+        height: 74
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050302db5097c054982c615f7c4cbff5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_001
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 3
+        width: 55
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089f57e96b585f84cb15bf6548049f3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_002
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 4
+        width: 55
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146bfb53523142340adc72c395873496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97ed41c0d8220240af5bb103c937609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_004
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662c419e3ce5cdb46bd37ad487ed9692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_005
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 949
+        width: 53
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5283019, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c6c77c43ff4074bac6ccde797176ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_006
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 609
+        width: 46
+        height: 74
+      alignment: 9
+      pivot: {x: 0.6086956, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba276f1dd66568b4b8c5a2f6885f97f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_007
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 873
+        width: 47
+        height: 74
+      alignment: 9
+      pivot: {x: 0.59574467, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4c8152df5e95f41b0daeedddf0029b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_008
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 949
+        width: 47
+        height: 74
+      alignment: 9
+      pivot: {x: 0.59574467, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1068c5047f3ab5459bc9c936563280d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_009
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 797
+        width: 48
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7927ed58bec2e174786c11aef63c86f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_010
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 721
+        width: 49
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674b6712cf87f34469cf08b337d5587c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_011
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 721
+        width: 49
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5f3319e3075fc47a58b9b910603e9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_012
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 797
+        width: 50
+        height: 74
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d6a34e05da86e40a4bc4ee5b99b273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_013
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 17
+        width: 55
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8478aaf8afee5a4cb9438b87f0cf078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoAttack_014
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 3
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef40e89986f69f4394b86128b7d030d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_000
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 111
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6909f60de4395104e9ad86e2cadd7d31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_001
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 186
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9a85247a066b0449c67ad51d2e12a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_002
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 112
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0e743f4b925cd42b993bf93d1224a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_003
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 20
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87252da9fc583124eb6e821789120d36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_004
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 22
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de52113a064961448c908cf95b1de83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_005
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 799
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7e9a19bc99ab24daa6df76ee8e211a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_006
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 875
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a380ae313e51341bb0029ca28c7a3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_007
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 951
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d9da39fcb5c52458cd8ba535846505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_008
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 725
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b27176341d9ab3438a18ce641342d13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_009
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 611
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1c944148ca9f94e96e6c3a893765e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_010
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 537
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe45a5a7ef7f6e4ea60611981a294f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_011
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 463
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb6498139bf4c9468c1febf7e7b404b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_012
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 389
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1f216470756e9499665e0adb38df65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_013
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 283
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef5c165eab1ac04a9aac3e0f7476109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoIdle_014
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 186
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568ba28341eb17447beb12b43df328a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_000
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 610
+        width: 46
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5326087, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7f58393a398ad4782d79101adda97b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_001
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 459
+        width: 46
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5326087, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1221aa5524daad440bfabcc3ef4cba76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_002
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 535
+        width: 46
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5326087, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b524e9be768d8f4e883bce3bac0a42b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_003
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 355
+        width: 44
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5568182, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ffceea955efb644b6d848f9c1fb687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_004
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 460
+        width: 44
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5568182, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae824379de8bf6499d0c3f737ab7c84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_005
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 280
+        width: 43
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5697674, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7182c550d2ac2f42a78c9f74b30ce50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_006
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 357
+        width: 43
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5697674, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7405c86ac71abb04fb523a3277f53591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_007
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 185
+        width: 43
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5697674, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d870eaae6e1a44aa2291cca18aad75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_008
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 282
+        width: 43
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5697674, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e278ac60efdd3fa448309b1c1859c1b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_009
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 801
+        width: 43
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5697674, y: 0.49305555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5efebf985f1a34c8a30ee442835014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_010
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 22
+        width: 47
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5212766, y: 0.49305555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ca25f199f3beb4384890a428e29794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_011
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 878
+        width: 49
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48591548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a23b9b44225a24eb32793294c261a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_012
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 953
+        width: 49
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47857141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08647f3588a69fe41b5f8ca307f482f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_013
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 112
+        width: 49
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49305555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6602a67b77a006b418eee4aa2e596953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_014
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 534
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10636ae8c1649d45b836caa477ce9ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_000
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 292
+        width: 40
+        height: 67
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303be0e43ee7d7f438173a21cf2b9dab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_001
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 410
+        width: 42
+        height: 67
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c520e0e046ccbfa43b581fbda90c37d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_002
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 494
+        width: 43
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd201f3a10c68c4ca98f7c17f744a99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_003
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 566
+        width: 43
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd170215d3a9094bae29ec375e3a0f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_004
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 637
+        width: 43
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6327ab73128091c4d93a8d0e153b16c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_005
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 196
+        width: 40
+        height: 67
+      alignment: 9
+      pivot: {x: 0.525, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e979eec701dd1429b33527c5c38778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_006
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 416
+        width: 36
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651bb4d7a40f4764982c913b4e3342fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_007
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 639
+        width: 38
+        height: 67
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a590b6f775e87c46bcd7daaec9d36e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_008
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 570
+        width: 37
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5675676, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06d157556f1adf40996b755316ddd63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_009
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 501
+        width: 35
+        height: 67
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218a45b696418b14797978ad9a3f3f7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_010
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 418
+        width: 36
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc25b13d94eaa64fa1da72aa5c65ba5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_011
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 568
+        width: 39
+        height: 67
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f24223bfedf61c45af1aaec6effca18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_012
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 639
+        width: 37
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5675676, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9726359015fcf4ebdbbc4c70880bfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_013
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 499
+        width: 38
+        height: 67
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d42825c22058e41bcbe3e328289b88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fight_014
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 497
+        width: 40
+        height: 67
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009306fed8750464795c10716a369983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_000
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 883
+        width: 54
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4f2ae8ae8568041b813591c59143f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_001
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 954
+        width: 54
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a96dd97c4d51d347ad59750762ba771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_002
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 730
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b927510d86532f847b5cab2c129ed74b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_003
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 807
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09709fb5a4a2b5f46916a75667103794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_004
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 811
+        width: 55
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337b7da381f75a4428470720896d12d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_005
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 812
+        width: 52
+        height: 69
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d11f6d94a3a69458de6c23a1e4399b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_006
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 618
+        width: 53
+        height: 69
+      alignment: 9
+      pivot: {x: 0.509434, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c5c81abf864c348acd19824a579b5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_007
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 547
+        width: 53
+        height: 69
+      alignment: 9
+      pivot: {x: 0.509434, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca761a20f46b534fa14b47b21cddb58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_008
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 484
+        width: 47
+        height: 69
+      alignment: 9
+      pivot: {x: 0.59574467, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283ac2b0871ff9d4d9ee61a56e842e43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_009
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 882
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c6ec62989a31b42b7630696072a2bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_010
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 26
+        width: 49
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4623efee7438bf418abb325dde0328b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_011
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 954
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f324569f653c10a4fb45ebd0f098d910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_012
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 736
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248edfc70d0af8c4a8e0a95e3df61917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_013
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 626
+        width: 53
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5283019, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805d2b3f1fc401a4f953adb9e9f15804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostAttack_014
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 883
+        width: 52
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5192308, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3fe900d3eaa3a4783a72451f91f68f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_000
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 193
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4c0cce02381e340a516dcdc2370ddd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_001
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 123
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1c28ce0b9d6a5459feb27837d4c50d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_002
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 27
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7350c1aa89ce4cd47b4b5d7a60e55522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_003
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 194
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056684b177efaf243af211de5c4e666d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_004
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 124
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820efd0d56c03304982f3b5163f705a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_005
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 27
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd44bd28e8dfb84e9609438fb8b6ab9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_006
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 633
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca6bd2f1ed95254b99445ebcdf9f452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_007
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 742
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf46adc94e84c04f9628bb87f105d10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_008
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 813
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d33e2ffc405664b8e20f0cadbf707b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_009
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 955
+        width: 51
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50980395, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d154c7c38611c7e4181b28492ba2f81f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_010
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 563
+        width: 51
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50980395, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e980ecfd4513f3c4d9cb73487cd4164f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_011
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 635
+        width: 51
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50980395, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f231960eee1ff143830d98e75413394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_012
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 743
+        width: 51
+        height: 68
+      alignment: 9
+      pivot: {x: 0.49019608, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d8d4ddfe26d2c4496e07494319cebc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_013
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 814
+        width: 51
+        height: 68
+      alignment: 9
+      pivot: {x: 0.49019608, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e755b86e7fa62c4e9f2b472e5cdff09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostIdle_014
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 884
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd72936c835b59348ac91b2845fe5c55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_000
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 484
+        width: 48
+        height: 69
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5912e09b552cd054a96ec2a3adb8db88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_001
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 555
+        width: 48
+        height: 69
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd4e8f7ae268844292fe018e6777b47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_002
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 393
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde2232bb0393864789b60c258f4bd70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_003
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 555
+        width: 49
+        height: 69
+      alignment: 9
+      pivot: {x: 0.52040815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f20c6e1ee34fa4b9a472c4dc6596b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_004
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 286
+        width: 51
+        height: 69
+      alignment: 9
+      pivot: {x: 0.51960784, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb99e0d72837eb46a7b27ce84597040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_005
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 398
+        width: 48
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5104167, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c61904dc67cd324c801b0728c3562b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_006
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 954
+        width: 52
+        height: 69
+      alignment: 9
+      pivot: {x: 0.50961536, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6403d21f0857ab4585f6ea0caa76434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_007
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 290
+        width: 46
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5543478, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48baded4a215404b8ca33a9ccbec945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_008
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 398
+        width: 46
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5543478, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d788c87efa2d9d545ab228b65562509a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_009
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 118
+        width: 50
+        height: 69
+      alignment: 9
+      pivot: {x: 0.53, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf09bf07b4053c94bbbf8e8fbefec228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_010
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 740
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26637aa2634efd4f9d12b816f5e7655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_011
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 745
+        width: 53
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48507464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eedffe1de129bf4793ddb3e0222d1bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_012
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 291
+        width: 53
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49264705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d825be054ef19b54eadd0f8228e272c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_013
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 476
+        width: 52
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4903846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58924ce500f97ad4bb85fa10b8ee0dd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWalk_014
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 189
+        width: 51
+        height: 69
+      alignment: 9
+      pivot: {x: 0.48039216, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2817f58edae9c294dbbaf08acb0b5601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_000
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 432
+        width: 42
+        height: 25
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.74}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0d62d0f822b234dbf36e68cf574f75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_001
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 430
+        width: 42
+        height: 27
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.5740741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f6a6afd7157a14bbdef609e42372f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_002
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 357
+        width: 46
+        height: 30
+      alignment: 9
+      pivot: {x: 0.48913044, y: 0.48333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde0f1ef8a77cd84299d0eb6a1afc2ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_003
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 383
+        width: 47
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290bb4a8a6604e04d94c327e7c91e466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_004
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 266
+        width: 44
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4659091, y: 0.37096775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffac96ffcbd77e4db1c689f90706e84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_005
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 570
+        width: 32
+        height: 30
+      alignment: 9
+      pivot: {x: 0.359375, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88995c7ebb581147ae0f31380d2d83b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_006
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 97
+        width: 27
+        height: 24
+      alignment: 9
+      pivot: {x: 0.3148148, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff7bad521d09d34f8dccde4a3e01a20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_007
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1
+        width: 26
+        height: 29
+      alignment: 9
+      pivot: {x: 0.3653846, y: 0.3275862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5516076facd7ed34b97b6018ada34214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_008
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 260
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.26190478, y: 0.35714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1645df2e766e0945a29b626fa732ab9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_009
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 260
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.275, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69524e9367cf8245ba301b72cec66d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_010
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 260
+        width: 24
+        height: 21
+      alignment: 9
+      pivot: {x: 0.35416666, y: 0.45238096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76870e0198a7de3489ac6709b633294a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_011
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1
+        width: 28
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4107143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907664b9bb3c4fe42b44d16935aa3517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_012
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 357
+        width: 39
+        height: 30
+      alignment: 9
+      pivot: {x: 0.47435898, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e3e7172cefc8748989113994005470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_013
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 502
+        width: 38
+        height: 29
+      alignment: 9
+      pivot: {x: 0.46052632, y: 0.5689655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12f596d81c094541bd188f418895f39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesAttack_014
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 905
+        width: 38
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5131579, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95beb5f32cf920428b26fbbca9b446f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_000
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 433
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05f316f7bb0f324a95bc7fcf48483d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_001
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 263
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450de1b5cc32e93408b9724040955882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_002
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 263
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd6dedfa01a53d4cb9a127e223face2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_003
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 264
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f431c4a9378e424e8ad5f52d57dae1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_004
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 260
+        width: 40
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47916666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffde0d1e72237e34fb2b7b67d936ccac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_005
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 97
+        width: 38
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47916666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e52f4f51be4084e9f9c9010efab4af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_006
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 266
+        width: 39
+        height: 25
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e577dfe67a7988646a9413a906ec619c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_007
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 97
+        width: 39
+        height: 25
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9068c417ed34240a9bbd21aa6f09af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_008
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1
+        width: 38
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47916666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d37bf22c89a45545910b36ca734bebb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_009
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 100
+        width: 39
+        height: 25
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc25d1d3de29c147b556d3109e6d6f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_010
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 998
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4625e6884a7e9f2499116891ba3503b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_011
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 103
+        width: 39
+        height: 25
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d50cf11384b464c8d3016eb5a02eb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_012
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 932
+        width: 39
+        height: 25
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91510157a4d0b144969a7c6235e3e70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_013
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 97
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b842ad3119ee32a4e96e2d3a8ba4af3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesIdle_014
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 265
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899f7f1b384c70b47bbfce48c424e923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_000
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.2777778, y: 0.6052632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3552496f3241bb5418b97e1824ad707e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_001
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 5
+        width: 17
+        height: 19
+      alignment: 9
+      pivot: {x: 0.1764706, y: 0.4473684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea737cf7dc2b6643b5cdd79b2fe9d47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_002
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 6
+        width: 17
+        height: 19
+      alignment: 9
+      pivot: {x: 0.05882353, y: 0.28947368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd804f9377acdcb4294f3a99a4ed48a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_003
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 96
+        width: 17
+        height: 20
+      alignment: 9
+      pivot: {x: -0.05882353, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485d55ecf4df1b2409fd7396fa545c05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_004
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 96
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: -0.11111111, y: 0.075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ffca8f7e2ba7446bfeedf8ffa536ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_005
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0.34210527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e8dcd25707ba5418ee0a52789a461c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_006
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.57894737, y: 0.65789473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce641bdc31c509847b1422db040b5b5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_007
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 260
+        width: 20
+        height: 18
+      alignment: 9
+      pivot: {x: 0.9, y: 0.9722222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcca82783b23b704e8a8cf7006e5be5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_008
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 516
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 1.0526316, y: 1.15625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e6e73b91c97c2468419507a43527d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_009
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 515
+        width: 19
+        height: 17
+      alignment: 9
+      pivot: {x: 1.0526316, y: 1.0882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20095f39f275d9a4eb927455254265e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_010
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 260
+        width: 20
+        height: 18
+      alignment: 9
+      pivot: {x: 1, y: 1.0277778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e9982f30ddfaa439a2b84a5ac4b681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_011
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1
+        width: 20
+        height: 19
+      alignment: 9
+      pivot: {x: 1, y: 0.92105263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8331a7dc5e6f642b97115cd4eb374a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_012
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 1, y: 0.8684211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370c94f82c2c3154a8b5dd3e9bab2b9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_013
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 260
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.7894737, y: 0.775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0f77264a96ed84b9a604eaa2439ae2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlovesWalk_014
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 97
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.7105263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49c869ed3ba55e4f89ca25170434c82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_000
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 281
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab74b379631c2945b05b0c16822be6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_001
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 248
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06519efe7b22ba24eae594070054823c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_002
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 215
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32738ad5411f9248b304947e12ec5fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_003
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 182
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb421195f8da8b94087136325494c532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_004
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 149
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc5683852d8a1346b20f7c0e54084c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_005
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 116
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15f60ddc58e920429292e2a17b02651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_006
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 83
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7adcce0a8b8ce14489a6c4f0a3e9e42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_007
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 50
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6137dc43acd8c4b8e635dcc1577414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_008
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 17
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1daa4e456693959418181c2e260b4b77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_009
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 992
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4e6faefa0cd6047a156313e477d5fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_010
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 959
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3122b2686e679b348943f3e284c377ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_011
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 926
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddc0104e9cae3a438acc6662c3b6002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_012
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 893
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2768a8c3fbbb8cd448e3946edb4ae458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_013
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 992
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ef2a77d8bce7b48a1901289b643b5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatIdle_014
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 959
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00414031c67c101419b6e01bf0dbcd4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_000
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 418
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a88c5c89d890b4a862305894b5783a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_001
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 418
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad9517fca4157a479bff6a423be239b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_002
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f03a35ee7ebc754491cbe34943f968c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_003
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978cd10f5e44d314e9b89b357b203443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_004
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b613d164dcc3dd43a01c2db789f8d1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_005
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5498945569849224885c753f0c617532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_006
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07396fe7f83dde145bf07c2456f2cec7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_007
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e4a1cd47299974cb189df110f18ee4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_008
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4623b68ee919c66448f71710451a984b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_009
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2972ea709f32c8e48a079f506a4cbc55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_010
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c117b9182e97f4181a8896ef09a0ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_011
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe08b38b95d9ef4fa7dced9ecd3d022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_012
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0242e7a6474ba14682549786affd179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_013
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 124
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9972a7dc167cdae4893951c3746c9452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatWalk_014
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 418
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b413b633e47a73a43aa2a2d03d56eb18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_000
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 232
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4028f5ef747d45444813ae7d4d3f4371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_001
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 127
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28192d57069a91b46ac2b82736ee3e2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_002
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 162
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c7c546277c4a74b9f314b67d7de7f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_003
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 198
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475b0ff189a759a49b9b7ff2ed57f579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_004
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 128
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3343c772df3712040ace30bc01e4ccc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_005
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 164
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c796146dd894caa44a2207358b2217f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_006
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 130
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd507d81a83d8f4f95e5b47de6f7df4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_007
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 66
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25105a85c08056d49bbb2e2f8623a460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_008
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 32
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b6da0ca133e39489c31fb54935ae99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_009
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 69
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5deafed755e07e344bc87fd1be1a5c20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_010
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 35
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbcc91872c6f5a4e9e76d1aaef28169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_011
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 69
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6ea3259b20b054c965218c79831003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_012
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1e1b6171944244fbe6e09926abe0fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_013
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 35
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d14cf15f12742488121d6abcc7f4fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskIdle_014
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f7edf1956c5d6479d1e4bd99b03154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_000
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 161
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6815dd6ab3e67439bc2685ae66b641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_001
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 196
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf4d6b1fc586e44cbbf690f88c02244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_002
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 196
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943c16784092800439f2ea86151c8d67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_003
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 314
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9b1e0d7020354418779f0486a22c39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_004
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 314
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d446dd5d5ccbe7b43af183220a665036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_005
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 314
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d110dbb8a0764d74896863cd7fb3509e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_006
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 196
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7731b265ae7d0c4dab70aaa77d0067d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_007
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 196
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cff07af016c37a4a8cb1e22ce6419c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_008
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 196
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f112cc7f5eb4de54caa92e76db8a00b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_009
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 196
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbcb4b22bd68b84d9d0635787c9d286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_010
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 314
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86cb2a7a4e234a42a627297eb103fc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_011
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 314
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2109371a85fa024aba9c5e5d59eaabb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_012
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 314
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb2b9274ba57004d8d78f38b213a26e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_013
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 314
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caf5895f579f974db243cfdd66102bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskWalk_014
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 196
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21544ea8ffb57f94d84ffdd775abda50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 595
+        width: 46
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe193b5d90942a4b866688059e7df22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 509
+        width: 46
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd1205ee5b030546ba62ee0b2b5d48f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 939
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1ac296bec88964abdb7eb1eafd1213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 853
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0336b0fe109b28142aa52f6bd26d60be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 767
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9883928b6ecdb9341965f9ebf5a8a972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 423
+        width: 45
+        height: 84
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a198d7b7ce030a45a9990a5a6d86402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_006
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 165
+        width: 40
+        height: 84
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5ef62fade6d1140bc2a7e90dde0006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_007
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 251
+        width: 40
+        height: 84
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3c01d7a25e6544daf07486801cad76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_008
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 337
+        width: 40
+        height: 84
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61829c62c6b545b4b94bb1fe11a1edbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_009
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 79
+        width: 40
+        height: 84
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603471aaf1db12a458ca22bb637cfa69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 681
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8eb1633b76a5d43aa7472a821d1a20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 43
+        height: 84
+      alignment: 9
+      pivot: {x: 0.55813956, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922b0106727d33241baddfe025d5f3b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 42
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8f5e2d4e6040442bee2ce5ae2a58cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 165
+        width: 43
+        height: 84
+      alignment: 9
+      pivot: {x: 0.55813956, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5567ec1538a304581a0ad8c5ac0034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessAttack_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 337
+        width: 44
+        height: 84
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122dae5ce4770c94a88158f3f135d006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_000
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 80
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4237cca4010ba7c4b9d138b545da5f36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_001
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 596
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5529ff819b450045bbd41a7cfadedef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_002
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 511
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bd165c8723b0d409680bf944f3dfd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_003
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 426
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f86a77d7ca6fa4f96281b5881ba8af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_004
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 341
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad56b6a77871d24d8d13d5383f7af10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_005
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 256
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a919708a19c87b44797d2afc85baac71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_006
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 171
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61018857ea1f1fc49960f452dd9da6e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_007
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 86
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d09d9e19f15d5489012671a37fb0fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_008
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378660a58b8867f44bc7416c1c48683b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_009
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 940
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b9b16002d6e8f46982f58e88e2789b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_010
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 855
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ddbacee5f3c1a43b74292cb6d14a92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_011
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 770
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5f080d810228847b25cf40541110d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_012
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 685
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee7cbf73fcaec248ba9535e7a1ab136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_013
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 600
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8dc31cda5306648a6f7f3932c81e68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessIdle_014
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 515
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3faf94bd2526b6408d399740f70f841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_000
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 79
+        width: 38
+        height: 84
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c14ecfc4d943d46a973d93ffa87977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_001
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 79
+        width: 38
+        height: 84
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1f4414bd602dc4cac52bf13ee88cae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_002
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 165
+        width: 38
+        height: 84
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0350339daf1a3546a86be9c6f675320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_003
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 165
+        width: 40
+        height: 84
+      alignment: 9
+      pivot: {x: 0.525, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25eda0e57a1e174da76b42cff759d67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_004
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 345
+        width: 40
+        height: 83
+      alignment: 9
+      pivot: {x: 0.525, y: 0.4939759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f6e8b88a4605f4592c54f3eb8fe413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_005
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 165
+        width: 41
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f934e5a1b274fac4d9b9f143b968a36f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_006
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 79
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d2dc40ca9f52a49998eacba9a55747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_007
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 251
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c46130402327fb48ba258be2f373a63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_008
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 337
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a006c0fc0cbdefe40a25eb6e49057f84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_009
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 430
+        width: 42
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4939759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11258d7bfe7d73c4fbf1125321053911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_010
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 260
+        width: 40
+        height: 83
+      alignment: 9
+      pivot: {x: 0.525, y: 0.4939759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c918d7ea14e636f4c98b3b8011093488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_011
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 93
+        width: 42
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a66b471b47e9a43bf1d00b7a0b4c80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_012
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 176
+        width: 42
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4ecc4a851ded94ab6c86a1bb9d9272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_013
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 423
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bff643c66ec524b838f7d22470ad25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessWalk_014
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 251
+        width: 40
+        height: 84
+      alignment: 9
+      pivot: {x: 0.525, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c281219f25328040874ca04042d38f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_000
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 464
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69e942eb96b5334eb80a93b5f5bfce4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_001
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 464
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0c075acdd5de240ac1d16986d6ec25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_002
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 398
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17fa954a7e606b47a03ca18db98225d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_003
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 398
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5575b3f9c585b7149bdaf5938b912f58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_004
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 482
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834d08e34dbd81a4e9958b7e5f3d46af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_005
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 485
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4395e90a251bf7b46a9662c8ed0be4f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_006
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 487
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a334782e205bdd348b8ebedc05669ce0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_007
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 404
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424db102782399e4e9f8949d03ed0ae7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_008
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 404
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6421c35382256f46841d0c01cf97637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_009
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 487
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbc5f6410855d145bf04a09075969fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_010
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 489
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecfd422d08476d46ba49c2c045ef5ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_011
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 15
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa67b5fdbbe9adf4786d7a7d12ffacea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_012
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5c1c0c332a08b4abdb9eaefa31c092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_013
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 15
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723a98098d559bb409113d306c3ce34c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateAttack_014
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 3
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c143e8aa102e8945918792fc8d0bc75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_000
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32be6fa67950b664c8ce6922a07a5713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_001
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ae309553bb26c4b8dbb7dd64e18f27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_002
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e002b162e03015145b30020a4b907741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_003
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b493d262fb95e4cbba5b1847cd2c56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_004
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1192aa2775f7b4d8c94696bf8e273c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_005
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60eedb11a03eef4e871c9d4a10d6ee1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_006
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2fc352532c0f34692ea352e0c81628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_007
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f83bdd585b011b43b0149c1069e58c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_008
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5a18c3c504e644891620a48b49098f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_009
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426e55a318e4c5b4dacf204ef5ebe3a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_010
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f966f95d37f22a45ab1326d1af5137e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_011
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a521796ddb2b6d4da4a3ebfd9e9e520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_012
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d0c11745ac58343a4d0e9460f67228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_013
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b483ff08a3df7d4418fab40893f7183a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateIdle_014
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 407
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4592e1c58f0f674dbe5026ef4dec7bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_000
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 94
+        width: 29
+        height: 15
+      alignment: 9
+      pivot: {x: 0.39655173, y: 0.53333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a31f7fef630ead479b47b49b19c34bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_001
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 96
+        width: 31
+        height: 14
+      alignment: 9
+      pivot: {x: 0.43548387, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0181a6516cbe347b1a667f1897ef5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_002
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 469
+        width: 35
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb45b64a80226c54c80debcc0f97126a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_003
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 469
+        width: 35
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f19df3e0bb541c4ea5f7b2a26ccfc6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_004
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 469
+        width: 35
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee157dcbc3a82840853a22f6d191c41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_005
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1
+        width: 32
+        height: 14
+      alignment: 9
+      pivot: {x: 0.453125, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff4e49a01ee5ed46bd09e4c4e80fa2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_006
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 4
+        width: 27
+        height: 14
+      alignment: 9
+      pivot: {x: 0.3888889, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c19b2c4551d55c42b8d0129edc983d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_007
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 95
+        width: 23
+        height: 15
+      alignment: 9
+      pivot: {x: 0.32608697, y: 0.53333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81f474b01984504fa33bad2f879646d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_008
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 96
+        width: 18
+        height: 14
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a22a6658df4360458cdbfa5aaf25002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_009
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 96
+        width: 20
+        height: 14
+      alignment: 9
+      pivot: {x: 0.325, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ed78f24dd259445a7b60aedc0d770d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_010
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 4
+        width: 24
+        height: 14
+      alignment: 9
+      pivot: {x: 0.39583334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479578099259a2442941e60b264eabf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_011
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 479
+        width: 28
+        height: 13
+      alignment: 9
+      pivot: {x: 0.4107143, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba03376033f85a428842e02c839e714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_012
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1
+        width: 32
+        height: 14
+      alignment: 9
+      pivot: {x: 0.453125, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf2624789a20b04ab049f388710a359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_013
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 94
+        width: 24
+        height: 15
+      alignment: 9
+      pivot: {x: 0.39583334, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22916af8fec9fd41a534d8f82fa20a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkateWalk_014
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 262
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 0.34210527, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295058ad1b8edf84f912160ab4dc011c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6e4fc2763cc01ca46a3c8bd56cc6e346
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
