@@ -87,5 +87,19 @@ namespace Assets.Scripts
         {
             PlayerData.Candy += count;
         }
+
+        public int AttemptToStealCandy(int count)
+        {
+            int newAmount = PlayerData.Candy - count;
+            if(newAmount > 0)
+            {
+                PlayerData.Candy = newAmount;
+                return count;
+            } else
+            {
+                PlayerData.Candy = 0;
+                return (newAmount + count);
+            }
+        }
     }
 }
