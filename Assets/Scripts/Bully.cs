@@ -13,15 +13,51 @@ namespace Assets.Scripts
         [SerializeField]
         private int _attackPower = 3;
 
+        [SerializeField]
+        private int _hitPoints = 3;
+
+        [SerializeField]
+        private int _candyCount = 12;
+
+        [SerializeField]
+        private float _stunCooldown = 2f;
+        private float _stunTimer;
+        private bool _isStunned = false;
+
+        private SpriteRenderer _spriteRenderer = null;
+        private Rigidbody2D _rigidBody = null;
+
+        private void Awake()
+        {
+            _spriteRenderer = this.GetComponent<SpriteRenderer>();
+            _rigidBody = this.GetComponent<Rigidbody2D>();
+        }
+
         private void Update()
         {
-            Transform target = Player.PlayerInstance.transform;
-            if (Vector2.Distance(transform.position, target.position) < 4)
+            if(_isStunned)
             {
-                transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+                _stunTimer -= Time.deltaTime;
+                Color color = Color.red;
+                float colorScale = 1f - (_stunTimer / _stunCooldown);
+                color.g = color.b = colorScale;
+                _spriteRenderer.color = color;
+                if(_stunTimer <= 0f)
+                {
+                    _isStunned = false;
+                }
             }
 
-            _attackTimer = Mathf.Max(0f, _attackTimer - Time.deltaTime);
+            if (!_isStunned)
+            {
+                Transform target = Player.PlayerInstance.transform;
+                if (Vector2.Distance(transform.position, target.position) < 4)
+                {
+                    transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+                }
+
+                _attackTimer = Mathf.Max(0f, _attackTimer - Time.deltaTime);
+            }
         }
 
         private void OnTriggerStay2D(Collider2D collision)
@@ -44,19 +80,49 @@ namespace Assets.Scripts
         private void AttackPlayer()
         {
             int candyStolen = Player.PlayerInstance.AttemptToStealCandy(_attackPower);
-            for(int i = 0; i < candyStolen; ++i)
-            {
-                Vector3 spawnPos = Player.PlayerInstance.transform.position;
-                Candy candy = CandyManager.Get().GetCandy(spawnPos);
+            Vector3 spawnPos = Player.PlayerInstance.transform.position;
+            CandyManager.Get().SpillCandy(spawnPos, 6f, candyStolen);
+        }
 
-                //@TODO: Apply mild random force downward from the house
-                Rigidbody2D rigidBody = candy.GetComponent<Rigidbody2D>();
-                Vector2 force;
-                force.x = Random.Range(-1f, 1f);
-                force.y = Random.Range(-1f, 1f);
-                force *= 6f;
-                rigidBody.AddForceAtPosition(force, candy.transform.position, ForceMode2D.Impulse);
+        public void Damage(int amount)
+        {
+            if(_isStunned)
+            {
+                return;
             }
+
+            Stun();
+
+            int candyAmount = _candyCount / _hitPoints;
+            SpillCandy(candyAmount);
+
+            _hitPoints -= amount;
+            if(_hitPoints <= 0)
+            {
+                SpillCandy(_candyCount);
+                Destroy(this.gameObject);
+            }
+        }
+
+        private void Stun()
+        {
+            _isStunned = true;
+            _stunTimer = _stunCooldown;
+
+            _spriteRenderer.color = Color.red;
+
+            //@TODO: Knock back enemy away from Player.
+            Vector2 force = (this.transform.position - Player.PlayerInstance.transform.position).normalized;
+            force *= 100f;
+            _rigidBody.AddForce(force);
+
+        }
+
+        private void SpillCandy(int count)
+        {
+            Vector3 spawnPos = this.transform.position;
+            CandyManager.Get().SpillCandy(spawnPos, 6f, count);
+            _candyCount -= count;
         }
     }
 }
