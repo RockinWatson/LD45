@@ -19,21 +19,23 @@ namespace Assets.Scripts
 
         private void Start()
         {
-            totalItems = ShopItemList.Length;
+            totalItems = ShopItemList.Length - 1;
         }
 
         private void Update()
         {
+            
             if (Player.PlayerInstance.IsShopLoaded)
             {
                 Pause();
+                SetPointer(_shopIndex);
                 if (Input.GetKeyDown(KeyCode.RightArrow))
                 {
                     _shopIndex++;
                     if (_shopIndex >= totalItems)
                     {
                         _shopIndex = totalItems;
-                    }
+                    }                   
                 }
                 if (Input.GetKeyDown(KeyCode.LeftArrow))
                 {
@@ -42,8 +44,7 @@ namespace Assets.Scripts
                     {
                         _shopIndex = 0;
                     }
-                }
-                SetPointer(_shopIndex);
+                }               
             }
             if (Input.GetKeyDown(KeyCode.Escape) && Player.PlayerInstance.IsShopLoaded)
             {
