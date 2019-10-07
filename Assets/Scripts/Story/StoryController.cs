@@ -6,9 +6,14 @@ using UnityEngine.SceneManagement;
 public class StoryController : MonoBehaviour
 
 {
-    private bool _select() { return (Input.GetKeyDown(KeyCode.Space)); }
+    public AudioSource storyMusic;
+    public AudioSource startEnter;
+
+    private bool _select() { return (Input.GetKeyDown(KeyCode.Return)) || (Input.GetKeyDown(KeyCode.KeypadEnter)); }
     private bool _right() { return (Input.GetKeyDown(KeyCode.RightArrow)); }
+    private bool _left() { return (Input.GetKeyDown(KeyCode.LeftArrow)); }
     private bool isStory;
+    private bool nextLevel;
 
     private Vector3 cardPos;
     private Vector3 cardHidePos;
@@ -25,6 +30,7 @@ public class StoryController : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        InitAudio();
         cardPos = new Vector3(0, 0, 0);
         cardHidePos = new Vector3(0, 50, 0);
         card1 = GameObject.Find("Card1");
@@ -37,6 +43,7 @@ public class StoryController : MonoBehaviour
 
         isStory = true;
         _activeScene = SceneManager.GetActiveScene();
+        nextLevel = true;
     }
 
     // Update is called once per frame
@@ -44,6 +51,27 @@ public class StoryController : MonoBehaviour
     {
         CardSelect();
 
+        if ((nextLevel == false) && (_select()))
+        {
+            Debug.Log("Change level");
+            StartCoroutine(ChangeLevel());
+        }
+
+    }
+
+    private void InitAudio()
+    {
+        AudioSource[] audio = GetComponents<AudioSource>();
+        storyMusic = audio[0];
+        startEnter = audio[1];
+
+        startEnter.volume = .5f;
+        storyMusic.volume = .7f;
+
+        if (!storyMusic.isPlaying)
+        {
+            storyMusic.Play();
+        }
     }
 
 
@@ -80,7 +108,19 @@ public class StoryController : MonoBehaviour
             {
                 card7.transform.position = cardPos;
                 card6.transform.position = cardHidePos;
+                nextLevel = false;
             }
         }
     }
+
+    IEnumerator ChangeLevel()
+    {
+        nextLevel = true;
+        startEnter.Play();
+        storyMusic.Stop();
+        yield return new WaitForSeconds(3.2f);
+        SceneManager.LoadScene("TestScene");
+
+    }
+
 }
